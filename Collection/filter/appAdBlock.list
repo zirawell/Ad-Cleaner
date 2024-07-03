@@ -384,6 +384,8 @@ host, mi.gdt.qq.com, reject
 host, pgdt.ugdtimg.com, reject
 host, sdk.e.qq.com, reject
 host, win.gdt.qq.com, reject
+host-suffix, doubleclick-cn.net, reject
+host-suffix, doubleclick.net, reject
 host-suffix, jiguang.cn, reject
 host-suffix, admobile.top, reject
 host-suffix, pubads.g.doubleclick.net, reject
