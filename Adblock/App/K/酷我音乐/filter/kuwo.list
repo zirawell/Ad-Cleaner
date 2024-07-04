@@ -1,0 +1,5 @@
+# > 酷我音乐 - KUWO
+host, splashimgbssdl.yun.kugou.com, reject
+host, report.tencentmusic.com, reject
+host, ad.tencentmusic.com, reject
+host, adstats.tencentmusic.com, reject

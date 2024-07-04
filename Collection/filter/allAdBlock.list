@@ -405,6 +405,11 @@ host-keyword, pglstatp-toutiao, reject
 host-keyword, video-cn.snssdk.com, reject
 # > keep - KEEP
 host, hc-ssp.sm.cn, reject
+# > 酷我音乐 - KUWO
+host, splashimgbssdl.yun.kugou.com, reject
+host, report.tencentmusic.com, reject
+host, ad.tencentmusic.com, reject
+host, adstats.tencentmusic.com, reject
 # > lofter - LOFTER
 host, ad.lofter.com, reject
 # > 银盛通 - YSEPAY
