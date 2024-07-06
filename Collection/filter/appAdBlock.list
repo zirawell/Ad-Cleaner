@@ -198,17 +198,22 @@ host, api.weibo.com, reject
 # > 百度贴吧 - BAIDUTIEBA
 IP-CIDR, 180.76.76.200/32, reject
 # > 百度 - BAIDU
-host-suffix, duapps.com, reject
-host-suffix, cpro.baidu.com, reject
-host-suffix, pos.baidu.com, reject
 host, als.baidu.com, reject
 host, duclick.baidu.com, reject
 host, mobads.baidu.com, reject
 host, mobads-logs.baidu.com, reject
 host, nadvideo2.baidu.com, reject
 host, nsclick.baidu.com, reject
+host, hm.baidu.com, reject
+host, hmma.baidu.com, reject
+host, feed-image.baidu.com, reject
+host, wn.pos.baidu.com, reject
+host, bgg.baidu.com, reject
 host-suffix, bce.baidu.com, reject
 host-suffix, bar.baidu.com, reject
+host-suffix, duapps.com, reject
+host-suffix, cpro.baidu.com, reject
+host-suffix, pos.baidu.com, reject
 host-suffix, baiduyubaidu.com, reject
 host-suffix, baidutv.baidu.com, reject
 host-suffix, baichuan.baidu.com, reject
@@ -322,6 +327,7 @@ host-suffix, ucstat.baidu.com, reject
 host-suffix, ulic.baidu.com, reject
 host-suffix, ulog.imap.baidu.com, reject
 host-suffix, union.baidu.com, reject
+host-suffix, union.baidu.cn, reject
 host-suffix, union.baidustatic.guannin.com, reject
 host-suffix, unionimage.baidu.com, reject
 host-suffix, utility.baidu.com, reject
@@ -336,17 +342,8 @@ host-suffix, wm.baidu.com, reject
 host-suffix, yingxiao.baidu.com, reject
 host-suffix, znsv.baidu.com, reject
 host-suffix, baidustatic.com, reject
-host-suffix, als.baidu.com, reject
 host-suffix, duclick.baidu.com, reject
 host-suffix, hm.baidu.com, reject
-host-suffix, hmma.baidu.com, reject
-host-suffix, mobads.baidu.com, reject
-host-suffix, mobads-logs.baidu.com, reject
-host-suffix, nsclick.baidu.com, reject
-host-suffix, union.baidu.cn, reject
-host-suffix, union.baidu.com, reject
-host, hm.baidu.com, reject
-host, hmma.baidu.com, reject
 # > 哔哩哔哩(国际版) - BILIBILI(WHITE)
 host, ptom.caohua.com, reject
 host, tracking.leiting.com, reject
