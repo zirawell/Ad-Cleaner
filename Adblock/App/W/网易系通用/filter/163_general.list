@@ -1,3 +1,9 @@
 # > 网易系通用 - 163GENERAL
 host-suffix, analytics.163.com, reject
 host-suffix, httpdns.n.netease.com, reject
+host, nex.163.com, reject
+host, iad.g.163.com, reject
+host, adx-bj.anythinktech.com, reject
+host, api.anythinktech.com, reject
+host, tk.anythinktech.com, reject
+host, da.anythinktech.com, reject
