@@ -196,7 +196,9 @@ host-suffix, apilog.qbb6.com, reject
 host, api-adservices.apple.com, reject
 host, api.weibo.com, reject
 # > 百度贴吧 - BAIDUTIEBA
-IP-CIDR, 180.76.76.200/32, reject
+ip-cidr, 180.76.76.200/32, reject
+host, afd.baidu.com, reject
+host, mobads.baidu.com, reject
 # > 百度 - BAIDU
 host, als.baidu.com, reject
 host, duclick.baidu.com, reject

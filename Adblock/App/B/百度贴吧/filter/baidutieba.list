@@ -1,2 +1,4 @@
 # > 百度贴吧 - BAIDUTIEBA
-IP-CIDR, 180.76.76.200/32, reject
+ip-cidr, 180.76.76.200/32, reject
+host, afd.baidu.com, reject
+host, mobads.baidu.com, reject
