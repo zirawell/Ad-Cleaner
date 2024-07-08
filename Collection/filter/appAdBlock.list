@@ -49,6 +49,8 @@ host, tcpgateway-sgp-trip.trip.com, reject
 host, overseamobileap.ctrip.com, reject
 ip-cidr, 103.143.160.209/32, reject
 ip-cidr, 210.13.85.204/32, reject
+# > 太平洋保险 - CPIC
+host, a.cpic.com.cn, reject
 # > 腾讯系通用 - TCGENERAL
 host, adsmind.gdtimg.com, reject
 host, info4.video.qq.com, reject
