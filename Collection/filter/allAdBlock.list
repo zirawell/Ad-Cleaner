@@ -188,6 +188,7 @@ host, dsp-x.jd.com, reject
 host, xlog.jd.com, reject
 host, janapi.jd.com, reject
 # > 建设银行 - CCB
+host-keyword, adv.ccb.com, reject
 # > 彩云天气 - CAIYUNAPP
 host, ad.cyapi.cn, reject
 # > 盯盯拍 - DDPAI
