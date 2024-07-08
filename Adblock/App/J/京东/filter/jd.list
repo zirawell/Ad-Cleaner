@@ -4,3 +4,5 @@ host, waapdg.jd.com, reject
 host, dsp-x.jd.com, reject
 host, xlog.jd.com, reject
 host, janapi.jd.com, reject
+ip-cidr, 101.124.19.122/32, reject
+ip6-cidr, 2402:db40:5100:1011::5/128, reject
