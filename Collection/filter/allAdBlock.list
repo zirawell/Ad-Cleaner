@@ -470,6 +470,8 @@ host, track.58.com, reject
 host, tracklog.58.com, reject
 # > 360儿童卫士 - 360
 host, ad.life.360.cn, reject
+# > 微信 - WECHAT
+host, badjs.weixinbridge.com, reject
 # > 网易云音乐 - 163MUSIC
 host-suffix, httpdns.music.163.com, reject
 host-suffix, iadmusicmatvideo.music.126.net, reject
