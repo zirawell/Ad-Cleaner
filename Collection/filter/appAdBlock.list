@@ -74,6 +74,10 @@ host-suffix, pmbanalysis.bosc.cn, reject
 host-suffix, pmbmpush.bosc.cn, reject
 host-suffix, pmbservice.bosc.cn, reject
 host-suffix, pmbservice2.bosc.cn, reject
+# > speedtest - SPEEDTEST
+host, ads.pubmatic.com, reject
+host, id.hadron.ad.gt, reject
+host-keyword, -adsystem.com, reject
 # > soul - SOUL
 host, ad-h5-cdn.soulapp.cn, reject
 host, ad-h5-station-cdn.soulapp.cn, reject
