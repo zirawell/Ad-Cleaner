@@ -42,8 +42,6 @@ host-suffix, appsflyer.com, reject
 host-suffix, appsflyersdk.com, reject
 host-suffix, kuaishouzt.com, reject
 host-suffix, unityads.unity3d.com, reject
-host-keyword, httpdns., reject
-host-keyword, httpdns-, reject
 host-keyword, -ad-sign.byteimg.com, reject
 host-keyword, -tos.pstatp.com, reject
 host-keyword, asiad.byteactivity, reject
