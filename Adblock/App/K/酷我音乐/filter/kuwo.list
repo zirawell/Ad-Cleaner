@@ -3,3 +3,6 @@ host, splashimgbssdl.yun.kugou.com, reject
 host, report.tencentmusic.com, reject
 host, ad.tencentmusic.com, reject
 host, adstats.tencentmusic.com, reject
+host, g.koowo.com, reject
+host, mobilead.kuwo.cn, reject
+host, rich.kuwo.cn, reject

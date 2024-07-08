@@ -50,13 +50,33 @@ host, overseamobileap.ctrip.com, reject
 ip-cidr, 103.143.160.209/32, reject
 ip-cidr, 210.13.85.204/32, reject
 # > 腾讯系通用 - TCGENERAL
+host, adsmind.gdtimg.com, reject
+host, info4.video.qq.com, reject
+host, info6.video.qq.com, reject
+host, ios.video.mpush.qq.com, reject
+host, otheve.beacon.qq.com, reject
+host, pgdt.gtimg.cn, reject
+host, tmead.y.qq.com, reject
+host, tmeadbak.y.qq.com, reject
+host, tmeadcomm.y.qq.com, reject
+host, tpns.qq.com, reject
 host-suffix, btrace.qq.com, reject
 host-suffix, beacon.qq.com, reject
+host-suffix, gdt.qq.com, reject
+host-suffix, l.qq.com, reject
+host-keyword, trace.qq.com, reject
+host-keyword, trace.video.qq.com, reject
+ip-cidr, 47.110.187.87/32, reject
 # > 上海银行 - BOSC
 host-suffix, pmbanalysis.bosc.cn, reject
 host-suffix, pmbmpush.bosc.cn, reject
 host-suffix, pmbservice.bosc.cn, reject
 host-suffix, pmbservice2.bosc.cn, reject
+# > soul - SOUL
+host, ad-h5-cdn.soulapp.cn, reject
+host, ad-h5-station-cdn.soulapp.cn, reject
+host, ad-r.soulapp.cn, reject
+host, soul-ad.soulapp.cn, reject
 # > Apple - APPLE
 host, advertising.apple.com, reject
 host, api-adservices.apple.com, reject
@@ -184,6 +204,20 @@ host-suffix, ad.e.waimai.sankuai.com, reject
 host-suffix, mads.meituan.com, reject
 host-suffix, dreport.meituan.net, reject
 host-suffix, d.meituan.net, reject
+# > 芒果TV - MGTV
+host, credits.bz.mgtv.com, reject
+host, credits2.bz.mgtv.com, reject
+host, credits3.bz.mgtv.com, reject
+host, dflow.bz.mgtv.com, reject
+host, encounter.bz.mgtv.com, reject
+host, floor.bz.mgtv.com, reject
+host, layer.bz.mgtv.com, reject
+host, mob.bz.mgtv.com, reject
+host, rc-topic-api.bz.mgtv.com, reject
+host, rprain.bz.mgtv.com, reject
+host, rprain.log.mgtv.com, reject
+host, vip.bz.mgtv.com, reject
+host-suffix, da.mgtv.com, reject
 # > 马蜂窝 - MAFENGWO
 host-suffix, advert.mafengwo.cn, reject
 # > 京东 - JD
@@ -425,6 +459,7 @@ host, sdk.e.qq.com, reject
 host, win.gdt.qq.com, reject
 host, open.kuaishou.com, reject
 host, ws.tapjoyads.com, reject
+host, hdns.ksyun.com, reject
 host, pagead2.googlesyndication-cn.com, reject
 host, pagead2.googlesyndication.com, reject
 host, pagead2.googleadservices.com, reject
@@ -444,6 +479,8 @@ host-suffix, appsflyer.com, reject
 host-suffix, appsflyersdk.com, reject
 host-suffix, kuaishouzt.com, reject
 host-suffix, unityads.unity3d.com, reject
+host-keyword, httpdns., reject
+host-keyword, httpdns-, reject
 host-keyword, -ad-sign.byteimg.com, reject
 host-keyword, -tos.pstatp.com, reject
 host-keyword, asiad.byteactivity, reject
@@ -459,6 +496,9 @@ host, splashimgbssdl.yun.kugou.com, reject
 host, report.tencentmusic.com, reject
 host, ad.tencentmusic.com, reject
 host, adstats.tencentmusic.com, reject
+host, g.koowo.com, reject
+host, mobilead.kuwo.cn, reject
+host, rich.kuwo.cn, reject
 # > lofter - LOFTER
 host, ad.lofter.com, reject
 # > 银盛通 - YSEPAY
@@ -506,6 +546,9 @@ host-suffix, 163jiasu.com, reject
 host-suffix, httpdns.music.163.com, reject
 host-suffix, iadmusicmatvideo.music.126.net, reject
 host-suffix, iadmusicmat.music.126.net, reject
+# > 微博 - WEIBO
+host, huodong.weibo.cn, reject
+host-suffix, biz.weibo.com, reject
 # > 网易系通用 - 163GENERAL
 host-suffix, analytics.163.com, reject
 host-suffix, httpdns.n.netease.com, reject

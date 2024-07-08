@@ -1,0 +1,3 @@
+# > 微博 - WEIBO
+host, huodong.weibo.cn, reject
+host-suffix, biz.weibo.com, reject

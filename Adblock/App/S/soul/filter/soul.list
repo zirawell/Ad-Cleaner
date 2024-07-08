@@ -1,0 +1,5 @@
+# > soul - SOUL
+host, ad-h5-cdn.soulapp.cn, reject
+host, ad-h5-station-cdn.soulapp.cn, reject
+host, ad-r.soulapp.cn, reject
+host, soul-ad.soulapp.cn, reject
