@@ -399,8 +399,10 @@ host, lc.map.baidu.com, reject
 # > 通用过滤 - GENERAL
 host, gdfp.gifshow.com, reject
 host, open.e.kuaishou.com, reject
-host-suffix, adukwai.com, reject
-host-suffix, miaozhen.com, reject
+host, ad.zijieapi.com, reject
+host, adtracker.adfunlink.com, reject
+host, init.supersonicads.com, reject
+host, is.snssdk.com, reject
 host, log.umsns.com, reject
 host, cnlogs.umeng.com, reject
 host, errlog.umeng.com, reject
@@ -416,12 +418,27 @@ host, mi.gdt.qq.com, reject
 host, pgdt.ugdtimg.com, reject
 host, sdk.e.qq.com, reject
 host, win.gdt.qq.com, reject
+host, open.kuaishou.com, reject
+host, ws.tapjoyads.com, reject
+host, pagead2.googlesyndication-cn.com, reject
+host, pagead2.googlesyndication.com, reject
+host, pagead2.googleadservices.com, reject
+host, www.googleadservices.com, reject
 host-suffix, doubleclick-cn.net, reject
 host-suffix, doubleclick.net, reject
 host-suffix, jiguang.cn, reject
 host-suffix, admobile.top, reject
-host-suffix, pubads.g.doubleclick.net, reject
-host-suffix, pagead2.googleadservices.com, reject
+host-suffix, adukwai.com, reject
+host-suffix, miaozhen.com, reject
+host-suffix, ads.linkedin.com, reject
+host-suffix, ads.vungle.com, reject
+host-suffix, adservice.google.com, reject
+host-suffix, applovin.com, reject
+host-suffix, applvn.com, reject
+host-suffix, appsflyer.com, reject
+host-suffix, appsflyersdk.com, reject
+host-suffix, kuaishouzt.com, reject
+host-suffix, unityads.unity3d.com, reject
 host-keyword, -ad-sign.byteimg.com, reject
 host-keyword, -tos.pstatp.com, reject
 host-keyword, asiad.byteactivity, reject
@@ -429,6 +446,7 @@ host-keyword, pangolin-sdk-toutiao, reject
 host-keyword, pangolin.snssdk.com, reject
 host-keyword, pglstatp-toutiao, reject
 host-keyword, video-cn.snssdk.com, reject
+host-keyword, ads.g.doubleclick, reject
 # > keep - KEEP
 host, hc-ssp.sm.cn, reject
 # > 酷我音乐 - KUWO
