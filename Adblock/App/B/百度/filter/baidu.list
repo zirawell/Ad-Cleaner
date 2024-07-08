@@ -8,7 +8,6 @@ host, nsclick.baidu.com, reject
 host, hm.baidu.com, reject
 host, hmma.baidu.com, reject
 host, feed-image.baidu.com, reject
-host, wn.pos.baidu.com, reject
 host, bgg.baidu.com, reject
 host-suffix, bce.baidu.com, reject
 host-suffix, bar.baidu.com, reject
@@ -145,3 +144,5 @@ host-suffix, znsv.baidu.com, reject
 host-suffix, baidustatic.com, reject
 host-suffix, duclick.baidu.com, reject
 host-suffix, hm.baidu.com, reject
+ip-cidr, 180.76.76.112/32, reject
+ip-cidr, 180.76.76.200/32, reject
