@@ -1,0 +1,15 @@
+# > Apple - APPLE
+host, advertising.apple.com, reject
+host, api-adservices.apple.com, reject
+host, apple.comscoreresearch.com, reject
+host, banners.itunes.apple.com, reject
+host, iad.apple.com, reject
+host, iadcontent.apple.com, reject
+host, iadctest.qwapi.com, reject
+host, iadmoo.apple.com, reject
+host, iadworkbench.apple.com, reject
+host, launch.apple.com, reject
+host, qwapi.apple.com, reject
+host-suffix, advp.apple.com, reject
+host-suffix, iad-apple.com, reject
+host-suffix, iadsdk.apple.com, reject

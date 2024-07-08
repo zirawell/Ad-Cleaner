@@ -2,6 +2,8 @@
 host, o2o-ad-log-gateway.alibaba.com, reject
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
+host, dns.alidns.com, reject
+host, ems.youku.com, reject
 host-suffix, mpush-api.aliyun.com, reject
 host-suffix, ut.taobao.com, reject
 ip-cidr, 59.82.120.0/24, reject

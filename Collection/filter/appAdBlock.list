@@ -52,6 +52,21 @@ host-suffix, pmbanalysis.bosc.cn, reject
 host-suffix, pmbmpush.bosc.cn, reject
 host-suffix, pmbservice.bosc.cn, reject
 host-suffix, pmbservice2.bosc.cn, reject
+# > Apple - APPLE
+host, advertising.apple.com, reject
+host, api-adservices.apple.com, reject
+host, apple.comscoreresearch.com, reject
+host, banners.itunes.apple.com, reject
+host, iad.apple.com, reject
+host, iadcontent.apple.com, reject
+host, iadctest.qwapi.com, reject
+host, iadmoo.apple.com, reject
+host, iadworkbench.apple.com, reject
+host, launch.apple.com, reject
+host, qwapi.apple.com, reject
+host-suffix, advp.apple.com, reject
+host-suffix, iad-apple.com, reject
+host-suffix, iadsdk.apple.com, reject
 # > 爱奇艺 - IQIYI
 host, api.iqiyi.com, reject
 host, cr-status.iqiyi.com, reject
@@ -104,6 +119,8 @@ ip-cidr, 203.107.1.0/24, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
+host, dns.alidns.com, reject
+host, ems.youku.com, reject
 host-suffix, mpush-api.aliyun.com, reject
 host-suffix, ut.taobao.com, reject
 ip-cidr, 59.82.120.0/24, reject
