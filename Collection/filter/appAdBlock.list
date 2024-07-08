@@ -7,6 +7,9 @@ host-suffix, pagead2.googleadservices.com, reject
 host-keyword, talk.bz.getui.com, reject
 # > 发现精彩 - 95508
 host, union.chinalifeonline.com.cn, reject
+# > 工商银行 - ICBC
+host, pageviewp.icbc.com.cn, reject
+host-suffix, mall.icbc.com.cn, reject
 # > 中国移动 - 10086
 ip-cidr, 120.240.95.37/32, reject
 # > 最右 - IZUIYOU
