@@ -78,6 +78,8 @@ host-suffix, pmbservice2.bosc.cn, reject
 host, ads.pubmatic.com, reject
 host, id.hadron.ad.gt, reject
 host-keyword, -adsystem.com, reject
+# > 什么值得买 - SMZDM
+host, api.zuihuimai.com, reject
 # > soul - SOUL
 host, ad-h5-cdn.soulapp.cn, reject
 host, ad-h5-station-cdn.soulapp.cn, reject
