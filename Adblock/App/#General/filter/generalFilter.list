@@ -33,7 +33,6 @@ host-suffix, jiguang.cn, reject
 host-suffix, admobile.top, reject
 host-suffix, adukwai.com, reject
 host-suffix, miaozhen.com, reject
-host-suffix, ads.linkedin.com, reject
 host-suffix, ads.vungle.com, reject
 host-suffix, adservice.google.com, reject
 host-suffix, applovin.com, reject

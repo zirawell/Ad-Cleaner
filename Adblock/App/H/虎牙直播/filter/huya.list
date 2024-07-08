@@ -1,2 +1,4 @@
 # > 虎牙直播 - HUYA
 host, live-ads.huya.com, reject
+host, business.msstatic.com, reject
+host-suffix, v1d.szbdyd.com, reject
