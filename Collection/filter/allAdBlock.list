@@ -237,6 +237,10 @@ host, rprain.bz.mgtv.com, reject
 host, rprain.log.mgtv.com, reject
 host, vip.bz.mgtv.com, reject
 host-suffix, da.mgtv.com, reject
+# > Microsoft Outlook - OUTLOOK
+host, acdn.adnxs.com, reject
+host, mediation.adnxs.com, reject
+host, sin3-ib.adnxs.com, reject
 # > 马蜂窝 - MAFENGWO
 host-suffix, advert.mafengwo.cn, reject
 # > 京东 - JD
