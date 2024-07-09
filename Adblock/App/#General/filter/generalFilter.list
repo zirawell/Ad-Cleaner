@@ -23,6 +23,7 @@ host, win.gdt.qq.com, reject
 host, open.kuaishou.com, reject
 host, ws.tapjoyads.com, reject
 host, hdns.ksyun.com, reject
+host, adttrackingprd.hwwt8.com, reject
 host, pagead2.googlesyndication-cn.com, reject
 host, pagead2.googlesyndication.com, reject
 host, pagead2.googleadservices.com, reject
