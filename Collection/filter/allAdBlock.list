@@ -14,6 +14,16 @@ host-suffix, mall.icbc.com.cn, reject
 host, amap-aos-info-nogw.amap.com, reject
 # > 中国移动 - 10086
 ip-cidr, 120.240.95.37/32, reject
+# > 知乎 - ZHIHU
+host, appcloud.zhihu.com, reject
+host, appcloud2.in.zhihu.com, reject
+host, crash2.zhihu.com, reject
+host, mqtt.zhihu.com, reject
+host, sugar.zhihu.com, reject
+host, zxid-m.mobileservice.cn, reject
+ip-cidr, 103.41.167.237/32, reject
+ip-cidr, 118.89.204.198/32, reject
+ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 # > 最右 - IZUIYOU
 host, adapi.izuiyou.com, reject
 # > 招商银行 - CMBCHINA
