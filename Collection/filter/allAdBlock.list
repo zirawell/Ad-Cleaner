@@ -544,6 +544,8 @@ host, ads.cup.com.cn, reject
 # > 51cto - 51CTO
 host, smartop-sdkapi.jiguang.cn, reject
 host, smartop-sdkapi-ipv6.jiguang.cn, reject
+# > 360智慧生活 - 360LIFE
+host, ad.iot.360.cn, reject
 # > 12123 - 12123
 host-suffix, v3.fstats.xyz, reject
 host-suffix, wss.haoyundmn.com, reject
@@ -555,8 +557,11 @@ host, ad.12306.cn, reject
 # > 58同城 - 58
 host, track.58.com, reject
 host, tracklog.58.com, reject
-# > 360儿童卫士 - 360
+# > 360儿童卫士 - 360KIDS
 host, ad.life.360.cn, reject
+# > 360SmartCamera - 360CAM
+host, ad.jia.360.cn, reject
+host, ad.iot.360.cn, reject
 # > 微信 - WECHAT
 host, badjs.weixinbridge.com, reject
 # > 网易云音乐 - 163MUSIC
