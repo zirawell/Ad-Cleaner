@@ -5,6 +5,7 @@ host, hudong.alicdn.com, reject
 host, dns.alidns.com, reject
 host, ems.youku.com, reject
 host-suffix, mpush-api.aliyun.com, reject
+host-suffix, ut.taobao.com, reject
 ip-cidr, 59.82.120.0/24, reject
 ip-cidr, 59.82.122.0/24, reject
 ip-cidr, 59.82.121.225/32, reject
