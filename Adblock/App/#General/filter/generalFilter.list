@@ -1,6 +1,5 @@
 # > 通用过滤 - GENERAL
 host, gdfp.gifshow.com, reject
-host, open.e.kuaishou.com, reject
 host, ad.zijieapi.com, reject
 host, adtracker.adfunlink.com, reject
 host, init.supersonicads.com, reject
@@ -21,6 +20,7 @@ host, pgdt.ugdtimg.com, reject
 host, sdk.e.qq.com, reject
 host, win.gdt.qq.com, reject
 host, open.kuaishou.com, reject
+host, open.e.kuaishou.com, reject
 host, ws.tapjoyads.com, reject
 host, hdns.ksyun.com, reject
 host, adttrackingprd.hwwt8.com, reject
@@ -43,6 +43,7 @@ host-suffix, appsflyersdk.com, reject
 host-suffix, kuaishouzt.com, reject
 host-suffix, unityads.unity3d.com, reject
 host-keyword, -ad-sign.byteimg.com, reject
+host-keyword, -analytics.bytescm.com, reject
 host-keyword, -tos.pstatp.com, reject
 host-keyword, asiad.byteactivity, reject
 host-keyword, pangolin-sdk-toutiao, reject
