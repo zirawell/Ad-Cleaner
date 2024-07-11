@@ -40,6 +40,7 @@ For a clean environment without advertisements for iOS Apps.
 - [@fmz200](https://github.com/fmz200)
 - [@RuCu6](https://github.com/RuCu6)
 - [@Sliverkiss](https://github.com/Sliverkiss)
+- [@luestr](https://github.com/luestr)
 
 ### 访问量统计
 
