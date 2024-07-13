@@ -225,6 +225,9 @@ host-suffix, ad.e.waimai.sankuai.com, reject
 host-suffix, mads.meituan.com, reject
 host-suffix, dreport.meituan.net, reject
 host-suffix, d.meituan.net, reject
+# > 美颜相机 - BEAUTYCAM
+host, aaid.uyunad.com, reject
+host, adui.tg.meitu.com, reject
 # > 芒果TV - MGTV
 host, credits.bz.mgtv.com, reject
 host, credits2.bz.mgtv.com, reject
@@ -484,6 +487,7 @@ host, open.kuaishou.com, reject
 host, open.e.kuaishou.com, reject
 host, ws.tapjoyads.com, reject
 host, hdns.ksyun.com, reject
+host, adservice.sigmob.cn, reject
 host, adttrackingprd.hwwt8.com, reject
 host, pagead2.googlesyndication-cn.com, reject
 host, pagead2.googlesyndication.com, reject

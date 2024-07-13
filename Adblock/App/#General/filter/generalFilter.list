@@ -23,6 +23,7 @@ host, open.kuaishou.com, reject
 host, open.e.kuaishou.com, reject
 host, ws.tapjoyads.com, reject
 host, hdns.ksyun.com, reject
+host, adservice.sigmob.cn, reject
 host, adttrackingprd.hwwt8.com, reject
 host, pagead2.googlesyndication-cn.com, reject
 host, pagead2.googlesyndication.com, reject
