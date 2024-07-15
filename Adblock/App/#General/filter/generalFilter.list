@@ -5,11 +5,15 @@ host, adtracker.adfunlink.com, reject
 host, init.supersonicads.com, reject
 host, is.snssdk.com, reject
 host, log.umsns.com, reject
+
+# 友盟
 host, cnlogs.umeng.com, reject
 host, errlog.umeng.com, reject
+host, errnewlog.umeng.com, reject
 host, ucc.umeng.com, reject
 host, ulogs.umeng.com, reject
 host, utoken.umeng.com, reject
+
 host, sdk.tianmu.mobi, reject
 host, adsmind.ugdtimg.com, reject
 host, i.gtimg.cn, reject
