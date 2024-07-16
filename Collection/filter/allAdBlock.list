@@ -40,6 +40,7 @@ host, appgo.189.cn, reject
 ip-cidr, 122.229.8.47/32, reject
 ip-cidr, 122.229.29.89/32, reject
 # > 支付宝 - ALIPAY
+host, adgw.alipay.com, reject
 host-suffix, mdap.alipay.com, reject
 host-suffix, loggw.alipay.com.cn, reject
 # > 中国联通 - 10010
@@ -166,7 +167,7 @@ host, dns.alidns.com, reject
 host, ems.youku.com, reject
 host-suffix, mpush-api.aliyun.com, reject
 host-suffix, ut.taobao.com, reject
-;ip-cidr, 59.82.120.0/24, reject
+ip-cidr, 59.82.120.162/32, reject
 ip-cidr, 59.82.122.0/24, reject
 ip-cidr, 59.82.121.225/32, reject
 ip-cidr, 59.82.121.31/32, reject
