@@ -1,5 +1,6 @@
 /********************************
 XiaoHongShu Remove Ads - Version 1.0
+Checkout Source - https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/xiaohongshu.snippet
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
