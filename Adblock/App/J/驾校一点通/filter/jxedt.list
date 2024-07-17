@@ -2,3 +2,6 @@
 host, richmanapi.jxedt.com, reject
 host, richmanmain.jxedt.com, reject
 host, richmanrules.jxedt.com, reject
+host, richmanapi.ksedt.com, reject
+host, richmanmain.ksedt.com, reject
+host, richmanrules.ksedt.com, reject

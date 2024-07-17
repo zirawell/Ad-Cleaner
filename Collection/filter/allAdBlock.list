@@ -237,6 +237,9 @@ host, ws.ksmobile.net, reject
 host, richmanapi.jxedt.com, reject
 host, richmanmain.jxedt.com, reject
 host, richmanrules.jxedt.com, reject
+host, richmanapi.ksedt.com, reject
+host, richmanmain.ksedt.com, reject
+host, richmanrules.ksedt.com, reject
 # > 建设银行 - CCB
 host-keyword, adv.ccb.com, reject
 # > 车来了 - CHELAILE
