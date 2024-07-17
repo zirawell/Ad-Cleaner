@@ -25,12 +25,15 @@ host, open.e.kuaishou.com, reject
 host, ws.tapjoyads.com, reject
 host, hdns.ksyun.com, reject
 host, et.tanx.com, reject
+host, sdk.beizi.biz, reject
 host, adservice.sigmob.cn, reject
 host, adttrackingprd.hwwt8.com, reject
 host, pagead2.googlesyndication-cn.com, reject
 host, pagead2.googlesyndication.com, reject
 host, pagead2.googleadservices.com, reject
 host, www.googleadservices.com, reject
+host, zxid-m.mobileservice.cn, reject
+host-suffix, openinstall.io, reject
 host-suffix, doubleclick-cn.net, reject
 host-suffix, doubleclick.net, reject
 host-suffix, jiguang.cn, reject
