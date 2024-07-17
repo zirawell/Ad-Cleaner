@@ -1,43 +1,4 @@
 # > 广告联盟 - ADUNION
-# 快手
-host, gdfp.gifshow.com, reject
-host, open.kuaishou.com, reject
-host, open.e.kuaishou.com, reject
-host-suffix, kuaishouzt.com, reject
-host-suffix, adukwai.com, reject
-
-# 友盟
-host, cnlogs.umeng.com, reject
-host, errlog.umeng.com, reject
-host, errnewlog.umeng.com, reject
-host, ucc.umeng.com, reject
-host, ulogs.umeng.com, reject
-host, utoken.umeng.com, reject
-host, deeplink.umeng.com, reject
-host, aspect-upush.umeng.com, reject
-
-# 谷歌
-host, www.googleadservices.com, reject
-host-suffix, adservice.google.com, reject
-host-keyword, pagead2.google, reject
-
-# 个推
-host-suffix, mobileservice.cn, reject
-host-suffix, getui.com, reject
-host-suffix, igexin.com, reject
-
-# Unity3d
-host-suffix, unityads.unity3d.com, reject
-
-# 腾讯优量汇
-host, ios.bugly.qq.com, reject
-host, mazu.m.qq.com, reject
-host, sdk.e.qq.com, reject
-host, i.gtimg.cn, reject
-host-suffix, ugdtimg.com, reject
-host-suffix, gdt.qq.com, reject
-
-# 其他
 host, ad.zijieapi.com, reject
 host, adtracker.adfunlink.com, reject
 host, init.supersonicads.com, reject
@@ -70,3 +31,35 @@ host-keyword, pangolin.snssdk.com, reject
 host-keyword, pglstatp-toutiao, reject
 host-keyword, video-cn.snssdk.com, reject
 host-keyword, ads.g.doubleclick, reject
+# > 快手 - KUAISHOU
+host, gdfp.gifshow.com, reject
+host, open.kuaishou.com, reject
+host, open.e.kuaishou.com, reject
+host-suffix, kuaishouzt.com, reject
+host-suffix, adukwai.com, reject
+# > 友盟 - UMENG
+host, cnlogs.umeng.com, reject
+host, errlog.umeng.com, reject
+host, errnewlog.umeng.com, reject
+host, ucc.umeng.com, reject
+host, ulogs.umeng.com, reject
+host, utoken.umeng.com, reject
+host, deeplink.umeng.com, reject
+host, aspect-upush.umeng.com, reject
+# > 谷歌 - GOOGLE
+host, www.googleadservices.com, reject
+host-suffix, adservice.google.com, reject
+host-keyword, pagead2.google, reject
+# > 个推 - GETUI
+host-suffix, mobileservice.cn, reject
+host-suffix, getui.com, reject
+host-suffix, igexin.com, reject
+# > Unity3d - UNITY3D
+host-suffix, unityads.unity3d.com, reject
+# > 腾讯优量汇 - TENCENT
+host, ios.bugly.qq.com, reject
+host, mazu.m.qq.com, reject
+host, sdk.e.qq.com, reject
+host, i.gtimg.cn, reject
+host-suffix, ugdtimg.com, reject
+host-suffix, gdt.qq.com, reject
