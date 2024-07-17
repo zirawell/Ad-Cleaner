@@ -224,6 +224,19 @@ host, xlog.jd.com, reject
 host, janapi.jd.com, reject
 ip-cidr, 101.124.19.122/32, reject
 ip6-cidr, 2402:db40:5100:1011::5/128, reject
+# > 金山词霸 - ICIBA
+host, ad-stat.ksosoft.com, reject
+host, img.auction-ads.wpscdn.cn, reject
+host, counter.kingsoft.com, reject
+host, counter.ksosoft.com, reject
+host, minfo.wps.cn, reject
+host, mobad.ijinshan.com, reject
+host, ups.ksmobile.net, reject
+host, ws.ksmobile.net, reject
+# > 驾校一点通 - JXEDT
+host, richmanapi.jxedt.com, reject
+host, richmanmain.jxedt.com, reject
+host, richmanrules.jxedt.com, reject
 # > 建设银行 - CCB
 host-keyword, adv.ccb.com, reject
 # > 车来了 - CHELAILE
@@ -586,6 +599,8 @@ host-suffix, ads.linkedin.com, reject
 host-keyword, medicine.lanjiyin.com.cn, reject
 # > lofter - LOFTER
 host, ad.lofter.com, reject
+# > youtube - YOUTUBE
+host, ads.youtube.com, reject
 # > 银盛通 - YSEPAY
 host, ad.ysepay.com, reject
 # > 优酷 - YOUKU
