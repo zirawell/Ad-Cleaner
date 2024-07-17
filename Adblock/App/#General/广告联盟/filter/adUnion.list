@@ -1,53 +1,66 @@
-# > 通用过滤 - GENERAL
+# > 广告联盟 - ADUNION
+# 快手
 host, gdfp.gifshow.com, reject
-host, ad.zijieapi.com, reject
-host, adtracker.adfunlink.com, reject
-host, init.supersonicads.com, reject
-host, is.snssdk.com, reject
-host, log.umsns.com, reject
+host, open.kuaishou.com, reject
+host, open.e.kuaishou.com, reject
+host-suffix, kuaishouzt.com, reject
+host-suffix, adukwai.com, reject
+
+# 友盟
 host, cnlogs.umeng.com, reject
 host, errlog.umeng.com, reject
 host, errnewlog.umeng.com, reject
 host, ucc.umeng.com, reject
 host, ulogs.umeng.com, reject
 host, utoken.umeng.com, reject
-host, sdk.tianmu.mobi, reject
-host, adsmind.ugdtimg.com, reject
-host, i.gtimg.cn, reject
+host, deeplink.umeng.com, reject
+host, aspect-upush.umeng.com, reject
+
+# 谷歌
+host, www.googleadservices.com, reject
+host-suffix, adservice.google.com, reject
+host-keyword, pagead2.google, reject
+
+# 个推
+host-suffix, mobileservice.cn, reject
+host-suffix, getui.com, reject
+host-suffix, igexin.com, reject
+
+# Unity3d
+host-suffix, unityads.unity3d.com, reject
+
+# 腾讯优量汇
 host, ios.bugly.qq.com, reject
 host, mazu.m.qq.com, reject
-host, mi.gdt.qq.com, reject
-host, pgdt.ugdtimg.com, reject
 host, sdk.e.qq.com, reject
-host, win.gdt.qq.com, reject
-host, open.kuaishou.com, reject
-host, open.e.kuaishou.com, reject
+host, i.gtimg.cn, reject
+host-suffix, ugdtimg.com, reject
+host-suffix, gdt.qq.com, reject
+
+# 其他
+host, ad.zijieapi.com, reject
+host, adtracker.adfunlink.com, reject
+host, init.supersonicads.com, reject
+host, is.snssdk.com, reject
+host, log.umsns.com, reject
+host, sdk.tianmu.mobi, reject
 host, ws.tapjoyads.com, reject
 host, hdns.ksyun.com, reject
 host, et.tanx.com, reject
 host, sdk.beizi.biz, reject
 host, adservice.sigmob.cn, reject
 host, adttrackingprd.hwwt8.com, reject
-host, pagead2.googlesyndication-cn.com, reject
-host, pagead2.googlesyndication.com, reject
-host, pagead2.googleadservices.com, reject
-host, www.googleadservices.com, reject
-host, zxid-m.mobileservice.cn, reject
 host-suffix, openinstall.io, reject
 host-suffix, doubleclick-cn.net, reject
 host-suffix, doubleclick.net, reject
 host-suffix, jiguang.cn, reject
 host-suffix, admobile.top, reject
-host-suffix, adukwai.com, reject
 host-suffix, miaozhen.com, reject
 host-suffix, ads.vungle.com, reject
-host-suffix, adservice.google.com, reject
 host-suffix, applovin.com, reject
 host-suffix, applvn.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, appsflyersdk.com, reject
-host-suffix, kuaishouzt.com, reject
-host-suffix, unityads.unity3d.com, reject
 host-keyword, -ad-sign.byteimg.com, reject
 host-keyword, -analytics.bytescm.com, reject
 host-keyword, -tos.pstatp.com, reject

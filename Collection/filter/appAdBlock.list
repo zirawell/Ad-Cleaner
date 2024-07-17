@@ -62,24 +62,6 @@ ip-cidr, 103.143.160.209/32, reject
 ip-cidr, 210.13.85.204/32, reject
 # > 太平洋保险 - CPIC
 host, a.cpic.com.cn, reject
-# > 腾讯系通用 - TCGENERAL
-host, adsmind.gdtimg.com, reject
-host, info4.video.qq.com, reject
-host, info6.video.qq.com, reject
-host, ios.video.mpush.qq.com, reject
-host, otheve.beacon.qq.com, reject
-host, pgdt.gtimg.cn, reject
-host, tmead.y.qq.com, reject
-host, tmeadbak.y.qq.com, reject
-host, tmeadcomm.y.qq.com, reject
-host, tpns.qq.com, reject
-host-suffix, btrace.qq.com, reject
-host-suffix, beacon.qq.com, reject
-host-suffix, gdt.qq.com, reject
-host-suffix, l.qq.com, reject
-host-keyword, trace.qq.com, reject
-host-keyword, trace.video.qq.com, reject
-ip-cidr, 47.110.187.87/32, reject
 # > 上海银行 - BOSC
 host-suffix, pmbanalysis.bosc.cn, reject
 host-suffix, pmbmpush.bosc.cn, reject
@@ -159,19 +141,6 @@ IP-CIDR, 101.227.200.28/32, reject
 IP-CIDR, 124.192.153.42/32, reject
 # > 阿里云盘 - ADRIVE
 ip-cidr, 203.107.1.0/24, reject
-# > 阿里系通用规则 - ALI_GENERAL
-host, o2o-ad-log-gateway.alibaba.com, reject
-host, ossgw.alicdn.com, reject
-host, hudong.alicdn.com, reject
-host, dns.alidns.com, reject
-host, ems.youku.com, reject
-host-suffix, mpush-api.aliyun.com, reject
-host-suffix, ut.taobao.com, reject
-ip-cidr, 59.82.120.162/32, reject
-ip-cidr, 59.82.122.0/24, reject
-ip-cidr, 59.82.121.225/32, reject
-ip-cidr, 59.82.121.31/32, reject
-ip-cidr, 59.82.121.83/32, reject
 # > 番茄小说 - FANQIE
 host, abtest3-misc.zijieapi.com, reject
 host, bsync3-normal.zijieapi.com, reject
@@ -467,56 +436,70 @@ host, afd.baidu.com, reject
 host, afdconf.baidu.com, reject
 host, httpdns.baidubce.com, reject
 host, lc.map.baidu.com, reject
-# > 通用过滤 - GENERAL
+# > 拼多多系通用规则 - PDD_GENERAL
+# > 广告联盟 - ADUNION
+# 快手
 host, gdfp.gifshow.com, reject
-host, ad.zijieapi.com, reject
-host, adtracker.adfunlink.com, reject
-host, init.supersonicads.com, reject
-host, is.snssdk.com, reject
-host, log.umsns.com, reject
+host, open.kuaishou.com, reject
+host, open.e.kuaishou.com, reject
+host-suffix, kuaishouzt.com, reject
+host-suffix, adukwai.com, reject
+
+# 友盟
 host, cnlogs.umeng.com, reject
 host, errlog.umeng.com, reject
 host, errnewlog.umeng.com, reject
 host, ucc.umeng.com, reject
 host, ulogs.umeng.com, reject
 host, utoken.umeng.com, reject
-host, sdk.tianmu.mobi, reject
-host, adsmind.ugdtimg.com, reject
-host, i.gtimg.cn, reject
+host, deeplink.umeng.com, reject
+host, aspect-upush.umeng.com, reject
+
+# 谷歌
+host, www.googleadservices.com, reject
+host-suffix, adservice.google.com, reject
+host-keyword, pagead2.google, reject
+
+# 个推
+host-suffix, mobileservice.cn, reject
+host-suffix, getui.com, reject
+host-suffix, igexin.com, reject
+
+# Unity3d
+host-suffix, unityads.unity3d.com, reject
+
+# 腾讯优量汇
 host, ios.bugly.qq.com, reject
 host, mazu.m.qq.com, reject
-host, mi.gdt.qq.com, reject
-host, pgdt.ugdtimg.com, reject
 host, sdk.e.qq.com, reject
-host, win.gdt.qq.com, reject
-host, open.kuaishou.com, reject
-host, open.e.kuaishou.com, reject
+host, i.gtimg.cn, reject
+host-suffix, ugdtimg.com, reject
+host-suffix, gdt.qq.com, reject
+
+# 其他
+host, ad.zijieapi.com, reject
+host, adtracker.adfunlink.com, reject
+host, init.supersonicads.com, reject
+host, is.snssdk.com, reject
+host, log.umsns.com, reject
+host, sdk.tianmu.mobi, reject
 host, ws.tapjoyads.com, reject
 host, hdns.ksyun.com, reject
 host, et.tanx.com, reject
 host, sdk.beizi.biz, reject
 host, adservice.sigmob.cn, reject
 host, adttrackingprd.hwwt8.com, reject
-host, pagead2.googlesyndication-cn.com, reject
-host, pagead2.googlesyndication.com, reject
-host, pagead2.googleadservices.com, reject
-host, www.googleadservices.com, reject
-host, zxid-m.mobileservice.cn, reject
 host-suffix, openinstall.io, reject
 host-suffix, doubleclick-cn.net, reject
 host-suffix, doubleclick.net, reject
 host-suffix, jiguang.cn, reject
 host-suffix, admobile.top, reject
-host-suffix, adukwai.com, reject
 host-suffix, miaozhen.com, reject
 host-suffix, ads.vungle.com, reject
-host-suffix, adservice.google.com, reject
 host-suffix, applovin.com, reject
 host-suffix, applvn.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, appsflyersdk.com, reject
-host-suffix, kuaishouzt.com, reject
-host-suffix, unityads.unity3d.com, reject
 host-keyword, -ad-sign.byteimg.com, reject
 host-keyword, -analytics.bytescm.com, reject
 host-keyword, -tos.pstatp.com, reject
@@ -526,6 +509,46 @@ host-keyword, pangolin.snssdk.com, reject
 host-keyword, pglstatp-toutiao, reject
 host-keyword, video-cn.snssdk.com, reject
 host-keyword, ads.g.doubleclick, reject
+# > 腾讯系通用 - TCGENERAL
+host, adsmind.gdtimg.com, reject
+host, info4.video.qq.com, reject
+host, info6.video.qq.com, reject
+host, ios.video.mpush.qq.com, reject
+host, otheve.beacon.qq.com, reject
+host, pgdt.gtimg.cn, reject
+host, tmead.y.qq.com, reject
+host, tmeadbak.y.qq.com, reject
+host, tmeadcomm.y.qq.com, reject
+host, tpns.qq.com, reject
+host-suffix, btrace.qq.com, reject
+host-suffix, beacon.qq.com, reject
+host-suffix, gdt.qq.com, reject
+host-suffix, l.qq.com, reject
+host-keyword, trace.qq.com, reject
+host-keyword, trace.video.qq.com, reject
+ip-cidr, 47.110.187.87/32, reject
+# > 阿里系通用规则 - ALI_GENERAL
+host, o2o-ad-log-gateway.alibaba.com, reject
+host, ossgw.alicdn.com, reject
+host, hudong.alicdn.com, reject
+host, dns.alidns.com, reject
+host, ems.youku.com, reject
+host-suffix, mpush-api.aliyun.com, reject
+host-suffix, ut.taobao.com, reject
+ip-cidr, 59.82.120.162/32, reject
+ip-cidr, 59.82.122.0/24, reject
+ip-cidr, 59.82.121.225/32, reject
+ip-cidr, 59.82.121.31/32, reject
+ip-cidr, 59.82.121.83/32, reject
+# > 网易系通用 - 163GENERAL
+host-suffix, analytics.163.com, reject
+host-suffix, httpdns.n.netease.com, reject
+host, nex.163.com, reject
+host, iad.g.163.com, reject
+host, adx-bj.anythinktech.com, reject
+host, api.anythinktech.com, reject
+host, tk.anythinktech.com, reject
+host, da.anythinktech.com, reject
 # > keep - KEEP
 host, hc-ssp.sm.cn, reject
 # > 酷我音乐 - KUWO
@@ -593,12 +616,3 @@ host-suffix, iadmusicmat.music.126.net, reject
 # > 微博 - WEIBO
 host, huodong.weibo.cn, reject
 host-suffix, biz.weibo.com, reject
-# > 网易系通用 - 163GENERAL
-host-suffix, analytics.163.com, reject
-host-suffix, httpdns.n.netease.com, reject
-host, nex.163.com, reject
-host, iad.g.163.com, reject
-host, adx-bj.anythinktech.com, reject
-host, api.anythinktech.com, reject
-host, tk.anythinktech.com, reject
-host, da.anythinktech.com, reject
