@@ -78,21 +78,6 @@ host, ad-h5-cdn.soulapp.cn, reject
 host, ad-h5-station-cdn.soulapp.cn, reject
 host, ad-r.soulapp.cn, reject
 host, soul-ad.soulapp.cn, reject
-# > Apple - APPLE
-host, advertising.apple.com, reject
-host, api-adservices.apple.com, reject
-host, apple.comscoreresearch.com, reject
-host, banners.itunes.apple.com, reject
-host, iad.apple.com, reject
-host, iadcontent.apple.com, reject
-host, iadctest.qwapi.com, reject
-host, iadmoo.apple.com, reject
-host, iadworkbench.apple.com, reject
-host, launch.apple.com, reject
-host, qwapi.apple.com, reject
-host-suffix, advp.apple.com, reject
-host-suffix, iad-apple.com, reject
-host-suffix, iadsdk.apple.com, reject
 # > 爱奇艺 - IQIYI
 host, api.iqiyi.com, reject
 host, cr-status.iqiyi.com, reject
@@ -169,8 +154,20 @@ host, zlink.ugsdk.cn, reject
 # > 航旅纵横 - UMETRIP
 host, analytics.umetrip.com, reject
 host, sensors.umetrip.com.cn, reject
+# > 虎扑 - HUPU
+host, adx.hupu.com, reject
+host, adx-api.hupu.com, reject
+host, goblin.hupu.com, reject
+# > 黄油相机 - BYBUTTER
+host-suffix, anythinktech.com, reject
+host-suffix, adkwai.com, reject
+host-suffix, mob.com, reject
 # > 虎牙直播 - HUYA
 host, live-ads.huya.com, reject
+host, pp-cdnfile2pcdn.msstatic.com, reject
+host, livewebbs2pcdn.msstatic.com, reject
+host, huyafile.msstatic.com, reject
+host, livewebbs2.msstatic.com, reject
 host, business.msstatic.com, reject
 host-suffix, v1d.szbdyd.com, reject
 # > 杭州市民 - 96225
@@ -489,6 +486,21 @@ host, aspect-upush.umeng.com, reject
 host, www.googleadservices.com, reject
 host-suffix, adservice.google.com, reject
 host-keyword, pagead2.google, reject
+# > 苹果 - APPLE
+host, advertising.apple.com, reject
+host, api-adservices.apple.com, reject
+host, apple.comscoreresearch.com, reject
+host, banners.itunes.apple.com, reject
+host, iad.apple.com, reject
+host, iadcontent.apple.com, reject
+host, iadctest.qwapi.com, reject
+host, iadmoo.apple.com, reject
+host, iadworkbench.apple.com, reject
+host, launch.apple.com, reject
+host, qwapi.apple.com, reject
+host-suffix, advp.apple.com, reject
+host-suffix, iad-apple.com, reject
+host-suffix, iadsdk.apple.com, reject
 # > 个推 - GETUI
 host-suffix, mobileservice.cn, reject
 host-suffix, getui.com, reject
@@ -502,6 +514,16 @@ host, sdk.e.qq.com, reject
 host, i.gtimg.cn, reject
 host-suffix, ugdtimg.com, reject
 host-suffix, gdt.qq.com, reject
+# > 安全限制解除 - UNLOCKSAFE
+host, lookup.api.bsb.baidu.com, reject
+host, proxy.safebrowsing.apple, reject
+host, safebrowsing.g.applimg.com, reject
+host, safebrowsing.googleapis.com, reject
+host, safebrowsing.urlsec.qq.com, reject
+host, token.safebrowsing.apple, reject
+host, vs6.bj2ct.u3.ucweb.com, reject
+host-suffix, safebrowsing.apple, reject
+host-suffix, u3.ucweb.com, reject
 # > 腾讯系通用 - TCGENERAL
 host, adsmind.gdtimg.com, reject
 host, info4.video.qq.com, reject
