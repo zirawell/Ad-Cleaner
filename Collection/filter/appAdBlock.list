@@ -226,6 +226,10 @@ ip-cidr, 101.124.19.122/32, reject
 ip6-cidr, 2402:db40:5100:1011::5/128, reject
 # > 建设银行 - CCB
 host-keyword, adv.ccb.com, reject
+# > 车来了 - CHELAILE
+host, atrace.chelaile.net.cn, reject
+host, logs.chelaile.net.cn, reject
+host, ad.chelaile.net.cn, reject
 # > 彩云天气 - CAIYUNAPP
 host, ad.cyapi.cn, reject
 # > 盯盯拍 - DDPAI
