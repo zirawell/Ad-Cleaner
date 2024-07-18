@@ -354,7 +354,6 @@ host, afd.baidu.com, reject
 host, afdconf.baidu.com, reject
 host, httpdns.baidubce.com, reject
 host, lc.map.baidu.com, reject
-# > 拼多多系通用规则 - PDD_GENERAL
 # > 广告联盟 - ADUNION
 host, ad.zijieapi.com, reject
 host, adtracker.adfunlink.com, reject
@@ -437,27 +436,10 @@ host-suffix, getui.com, reject
 host-suffix, igexin.com, reject
 # > Unity3d - UNITY3D
 host-suffix, unityads.unity3d.com, reject
-# > 腾讯优量汇 - TENCENT
+# > 腾讯系 - TENCENT
 host, mazu.m.qq.com, reject
 host, sdk.e.qq.com, reject
 host, i.gtimg.cn, reject
-host-suffix, ugdtimg.com, reject
-host-suffix, gdt.qq.com, reject
-host-suffix, bugly.qq.com, reject
-# > 安全浏览限制解除 - UNLOCKSAFE
-host, lookup.api.bsb.baidu.com, reject
-host, safebrowsing.g.applimg.com, reject
-host, safebrowsing.googleapis.com, reject
-host, safebrowsing.urlsec.qq.com, reject
-host-suffix, safebrowsing.apple, reject
-host-suffix, u3.ucweb.com, reject
-# > DNS拦截 - DNSINTERCEPT
-ip-cidr, 119.29.29.98/32, reject
-ip-cidr, 119.29.29.99/32, reject
-ip-cidr, 81.71.61.216/32, reject
-# > Adobe Flash China Special Edition - ADSEUNLOCK
-host, geo2.adobe.com, reject
-# > 腾讯系通用 - TCGENERAL
 host, adsmind.gdtimg.com, reject
 host, info4.video.qq.com, reject
 host, info6.video.qq.com, reject
@@ -474,36 +456,16 @@ host, mc.tencentmusic.com, reject
 host, report.tencentmusic.com, reject
 host, twns.p2ptun.qq.com, reject
 host, tp2p.kg.qq.com, reject
+host-suffix, ugdtimg.com, reject
+host-suffix, gdt.qq.com, reject
+host-suffix, bugly.qq.com, reject
 host-suffix, btrace.qq.com, reject
 host-suffix, beacon.qq.com, reject
-host-suffix, gdt.qq.com, reject
 host-suffix, l.qq.com, reject
 host-keyword, trace.qq.com, reject
 host-keyword, trace.video.qq.com, reject
 ip-cidr, 47.110.187.87/32, reject
-# > 阿里系通用规则 - ALI_GENERAL
-host, o2o-ad-log-gateway.alibaba.com, reject
-host, ossgw.alicdn.com, reject
-host, hudong.alicdn.com, reject
-host, dns.alidns.com, reject
-host, ems.youku.com, reject
-host-suffix, mpush-api.aliyun.com, reject
-host-suffix, ut.taobao.com, reject
-ip-cidr, 59.82.120.162/32, reject
-ip-cidr, 59.82.122.0/24, reject
-ip-cidr, 59.82.121.225/32, reject
-ip-cidr, 59.82.121.31/32, reject
-ip-cidr, 59.82.121.83/32, reject
-# > 网易系通用 - 163GENERAL
-host-suffix, analytics.163.com, reject
-host-suffix, httpdns.n.netease.com, reject
-host, nex.163.com, reject
-host, iad.g.163.com, reject
-host, adx-bj.anythinktech.com, reject
-host, api.anythinktech.com, reject
-host, tk.anythinktech.com, reject
-host, da.anythinktech.com, reject
-# > 百度系通用规则 - BAIDU_GENERAL
+# > 百度系 - BAIDU
 host, als.baidu.com, reject
 host, duclick.baidu.com, reject
 host, mobads.baidu.com, reject
@@ -516,6 +478,7 @@ host, bgg.baidu.com, reject
 host-suffix, bce.baidu.com, reject
 host-suffix, bar.baidu.com, reject
 host-suffix, duapps.com, reject
+host-suffix, duclick.baidu.com, reject
 host-suffix, cpro.baidu.com, reject
 host-suffix, pos.baidu.com, reject
 host-suffix, baiduyubaidu.com, reject
@@ -555,6 +518,7 @@ host-suffix, baidut.github.io, reject
 host-suffix, baidu-union-js.xiachufang.com, reject
 host-suffix, baidu-union-pos.xiachufang.com, reject
 host-suffix, baiduzhidahao.cc, reject
+host-suffix, baidustatic.com, reject
 host-suffix, cpro.baidu.cn, reject
 host-suffix, crs.baidu.com, reject
 host-suffix, datax.baidu.com, reject
@@ -587,6 +551,7 @@ host-suffix, guanjia.baidu.com, reject
 host-suffix, hc.baidu.com, reject
 host-suffix, hdj.baidu.com, reject
 host-suffix, hpd.baidu.com, reject
+host-suffix, hm.baidu.com, reject
 host-suffix, idm-su.baidu.com, reject
 host-suffix, iebar.baidu.com, reject
 host-suffix, ikcode.baidu.com, reject
@@ -645,11 +610,43 @@ host-suffix, wisepush.video.baidu.com, reject
 host-suffix, wm.baidu.com, reject
 host-suffix, yingxiao.baidu.com, reject
 host-suffix, znsv.baidu.com, reject
-host-suffix, baidustatic.com, reject
-host-suffix, duclick.baidu.com, reject
-host-suffix, hm.baidu.com, reject
 ip-cidr, 180.76.76.112/32, reject
 ip-cidr, 180.76.76.200/32, reject
+# > 阿里系 - ALIBABA
+host, o2o-ad-log-gateway.alibaba.com, reject
+host, ossgw.alicdn.com, reject
+host, hudong.alicdn.com, reject
+host, dns.alidns.com, reject
+host, ems.youku.com, reject
+host-suffix, mpush-api.aliyun.com, reject
+host-suffix, ut.taobao.com, reject
+ip-cidr, 59.82.120.162/32, reject
+ip-cidr, 59.82.122.0/24, reject
+ip-cidr, 59.82.121.225/32, reject
+ip-cidr, 59.82.121.31/32, reject
+ip-cidr, 59.82.121.83/32, reject
+# > 网易系 - NETEASE
+host, nex.163.com, reject
+host, iad.g.163.com, reject
+host, adx-bj.anythinktech.com, reject
+host, api.anythinktech.com, reject
+host, tk.anythinktech.com, reject
+host, da.anythinktech.com, reject
+host-suffix, analytics.163.com, reject
+host-suffix, httpdns.n.netease.com, reject
+# > 安全浏览限制解除 - UNLOCKSAFE
+host, lookup.api.bsb.baidu.com, reject
+host, safebrowsing.g.applimg.com, reject
+host, safebrowsing.googleapis.com, reject
+host, safebrowsing.urlsec.qq.com, reject
+host-suffix, safebrowsing.apple, reject
+host-suffix, u3.ucweb.com, reject
+# > DNS拦截 - DNSINTERCEPT
+ip-cidr, 119.29.29.98/32, reject
+ip-cidr, 119.29.29.99/32, reject
+ip-cidr, 81.71.61.216/32, reject
+# > Adobe Flash China Special Edition - ADSEUNLOCK
+host, geo2.adobe.com, reject
 # > keep - KEEP
 host, hc-ssp.sm.cn, reject
 host, apm.gotokeep.com, reject
