@@ -1,11 +1,8 @@
 # > 安全浏览限制解除 - UNLOCKSAFE
 host, lookup.api.bsb.baidu.com, reject
-host, proxy.safebrowsing.apple, reject
 host, safebrowsing.g.applimg.com, reject
 host, safebrowsing.googleapis.com, reject
 host, safebrowsing.urlsec.qq.com, reject
-host, token.safebrowsing.apple, reject
-host, vs6.bj2ct.u3.ucweb.com, reject
 host-suffix, safebrowsing.apple, reject
 host-suffix, u3.ucweb.com, reject
 # > DNS拦截 - DNSINTERCEPT
