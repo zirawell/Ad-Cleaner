@@ -1,2 +1,8 @@
 # > 高德地图 - AMAP
 host, amap-aos-info-nogw.amap.com, reject
+host, apiinit.amap.com, reject
+host, icloud-amap.com, reject
+host-suffix, adiu.amap.com, reject
+host-suffix, page.amap.com, reject
+host-keyword, logs.amap.com, reject
+host-keyword, ads.amap.com, reject
