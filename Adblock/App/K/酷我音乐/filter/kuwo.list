@@ -2,3 +2,4 @@
 host, g.koowo.com, reject
 host, mobilead.kuwo.cn, reject
 host, rich.kuwo.cn, reject
+ip-cidr, 111.206.98.63/32, reject

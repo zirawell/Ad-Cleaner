@@ -11,6 +11,7 @@ host, tmeadcomm.y.qq.com, reject
 host, tpns.qq.com, reject
 host, adstats.tencentmusic.com, reject
 host, ad.tencentmusic.com, reject
+host, mc.tencentmusic.com, reject
 host, report.tencentmusic.com, reject
 host-suffix, btrace.qq.com, reject
 host-suffix, beacon.qq.com, reject
