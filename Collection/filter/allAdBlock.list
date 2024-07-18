@@ -269,6 +269,8 @@ host, m-adnet.hiaiabc.com, reject
 host, g-adnet.dutils.com, reject
 host, g-adnet.hiaiabc.com, reject
 host, st7niu.aicarmap.com, reject
+# > 汽车之家 - AUTOHOME
+host, adproxy.autohome.com.cn, reject
 # > 亲宝宝 - QBB
 host-suffix, apilog.qbb6.com, reject
 # > 小鹏汽车 - XPENG
@@ -584,6 +586,9 @@ host, adx-bj.anythinktech.com, reject
 host, api.anythinktech.com, reject
 host, tk.anythinktech.com, reject
 host, da.anythinktech.com, reject
+# > DNS拦截 - DNS
+ip-cidr, 119.29.29.98/32, reject
+ip-cidr, 119.29.29.99/32, reject
 # > keep - KEEP
 host, hc-ssp.sm.cn, reject
 host, apm.gotokeep.com, reject

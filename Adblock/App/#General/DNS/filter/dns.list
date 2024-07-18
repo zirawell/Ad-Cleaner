@@ -1,0 +1,3 @@
+# > DNS拦截 - DNS
+ip-cidr, 119.29.29.98/32, reject
+ip-cidr, 119.29.29.99/32, reject
