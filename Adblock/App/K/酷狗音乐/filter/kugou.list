@@ -1,0 +1,7 @@
+# > 酷狗音乐 - KUGOU
+host, ads.service.kugou.com, reject
+host, adsmind.gdtimg.com, reject
+host, adserviceretry.kugou.com, reject
+host, adserviceretry.kglink.cn, reject
+host, adservice.kugou.com, reject
+host, splashimgbssdl.yun.kugou.com, reject

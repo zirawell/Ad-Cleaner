@@ -557,6 +557,9 @@ host, tmead.y.qq.com, reject
 host, tmeadbak.y.qq.com, reject
 host, tmeadcomm.y.qq.com, reject
 host, tpns.qq.com, reject
+host, adstats.tencentmusic.com, reject
+host, ad.tencentmusic.com, reject
+host, report.tencentmusic.com, reject
 host-suffix, btrace.qq.com, reject
 host-suffix, beacon.qq.com, reject
 host-suffix, gdt.qq.com, reject
@@ -593,11 +596,14 @@ ip-cidr, 119.29.29.99/32, reject
 host, hc-ssp.sm.cn, reject
 host, apm.gotokeep.com, reject
 host, kad.gotokeep.com, reject
-# > 酷我音乐 - KUWO
+# > 酷狗音乐 - KUGOU
+host, ads.service.kugou.com, reject
+host, adsmind.gdtimg.com, reject
+host, adserviceretry.kugou.com, reject
+host, adserviceretry.kglink.cn, reject
+host, adservice.kugou.com, reject
 host, splashimgbssdl.yun.kugou.com, reject
-host, report.tencentmusic.com, reject
-host, ad.tencentmusic.com, reject
-host, adstats.tencentmusic.com, reject
+# > 酷我音乐 - KUWO
 host, g.koowo.com, reject
 host, mobilead.kuwo.cn, reject
 host, rich.kuwo.cn, reject
