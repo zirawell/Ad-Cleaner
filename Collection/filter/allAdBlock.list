@@ -51,8 +51,21 @@ host-suffix, mdap.alipay.com, reject
 host-suffix, loggw.alipay.com.cn, reject
 # > 中国联通 - 10010
 host-suffix, m1.ad.10010.com, reject
+# > Talkatone - TALKATONE
+host-suffix, tappx.com, reject
 # > 同程旅行 - 17U
 host, vstlog.17usoft.com, reject
+# > 腾讯视频 - TXTV
+host, info4.video.qq.com, reject
+host, info6.video.qq.com, reject
+host, vv.video.qq.com, reject
+host, wxsmsdy.video.qq.com, reject
+host-suffix, video.mpush.qq.com, reject
+host-suffix, video.wap.mpush.qq.com, reject
+host-suffix, video.ureport.push.qq.com, reject
+host-suffix, api.poll.video.qq.com, reject
+host-suffix, livep.l.ott.video.qq.com, reject
+host-suffix, vlive.qqvideo.tc.qq.com, reject
 # > trip - TRIP
 host-suffix, graph.facebook.com, reject
 host-suffix, app.adjust.net.in, reject
@@ -89,6 +102,11 @@ host-suffix, athena.wan.sogou.com, reject
 host-suffix, bazinga.mse.sogou.com, reject
 host-suffix, brand.sogou.com, reject
 host-suffix, bsiet.husky.sogou.com, reject
+# > 搜狐 - SOHU
+host, hui.sohu.com, reject
+host-suffix, ad.sohu.com, reject
+host-suffix, ads.sohu.com, reject
+host-suffix, aty.sohu.com, reject
 # > 上海银行 - BOSC
 host-suffix, pmbanalysis.bosc.cn, reject
 host-suffix, pmbmpush.bosc.cn, reject
@@ -320,9 +338,33 @@ host-keyword, adproxy.autohome.com, reject
 host-keyword, applogapi.autohome.com, reject
 # > 亲宝宝 - QBB
 host-suffix, apilog.qbb6.com, reject
+# > 喜马拉雅 - XIMA
+host, adbehavior.ximalaya.com, reject
+host, adwbs.ximalaya.com, reject
+host-suffix, ad.test.ximalaya.com, reject
+host-suffix, adse.test.ximalaya.com, reject
+host-suffix, adweb.test.ximalaya.com, reject
+host-suffix, adweb.ximalaya.com, reject
+host-suffix, linkeye.ximalaya.com, reject
+host-suffix, location.ximalaya.com, reject
+host-suffix, xdcs-collector.ximalaya.com, reject
+host-suffix, ad.ximalaya.com, reject
+host-suffix, adse.ximalaya.com, reject
+host-suffix, adse.wsa.ximalaya.com, reject
+host-suffix, adbehavior.wsa.ximalaya.com, reject
+host-suffix, adsebs.ximalaya.com, reject
+host-suffix, adbs.ximalaya.com, reject
 # > 小鹏汽车 - XPENG
 host, api-adservices.apple.com, reject
 host, api.weibo.com, reject
+# > 迅雷 - XUNLEI
+host, adsp.xunlei.com, reject
+host, etl.xlmc.sandai.net, reject
+# > 小红书 - XIAOHONGSHU
+host, ads-img-qc.xhscdn.com, reject
+host, ads-video-al.xhscdn.com, reject
+host, ads-video-qc.xhscdn.com, reject
+host, t-ads.xiaohongshu.com, reject
 # > 百度贴吧 - BAIDUTIEBA
 ip-cidr, 180.76.76.200/32, reject
 host, afd.baidu.com, reject
@@ -378,6 +420,12 @@ host-suffix, applovin.com, reject
 host-suffix, applvn.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, appsflyersdk.com, reject
+host-suffix, adjust.com, reject
+host-suffix, app-measurement.com, reject
+host-suffix, pangle.io, reject
+host-suffix, appier.net, reject
+host-suffix, adsmoloco.com, reject
+host-suffix, adcanvas.com, reject
 host-keyword, -ad-sign.byteimg.com, reject
 host-keyword, -analytics.bytescm.com, reject
 host-keyword, -tos.pstatp.com, reject
@@ -440,30 +488,29 @@ host-suffix, unityads.unity3d.com, reject
 host, mazu.m.qq.com, reject
 host, sdk.e.qq.com, reject
 host, i.gtimg.cn, reject
-host, adsmind.gdtimg.com, reject
-host, info4.video.qq.com, reject
-host, info6.video.qq.com, reject
-host, ios.video.mpush.qq.com, reject
-host, otheve.beacon.qq.com, reject
-host, pgdt.gtimg.cn, reject
-host, pgdt.gtimg.com, reject
+host, splashqqlive.gtimg.com, reject
 host, tmead.y.qq.com, reject
 host, tmeadbak.y.qq.com, reject
 host, tmeadcomm.y.qq.com, reject
-host, tpns.qq.com, reject
 host, adstats.tencentmusic.com, reject
 host, ad.tencentmusic.com, reject
 host, mc.tencentmusic.com, reject
 host, report.tencentmusic.com, reject
 host, twns.p2ptun.qq.com, reject
 host, tp2p.kg.qq.com, reject
+host-suffix, tpns.qq.com, reject
+host-suffix, tpns.tencent.com, reject
+host-suffix, tetrack.qq.com, reject
 host-suffix, ugdtimg.com, reject
+host-suffix, gdtimg.com, reject
 host-suffix, gdt.qq.com, reject
+host-suffix, mdt.qq.com, reject
 host-suffix, bugly.qq.com, reject
-host-suffix, btrace.qq.com, reject
 host-suffix, beacon.qq.com, reject
 host-suffix, l.qq.com, reject
-host-suffix, oth.eve.mdt.qq.com, reject
+host-suffix, omgmta.qq.com, reject
+host-suffix, omgmta1.qq.com, reject
+host-keyword, pgdt.gtimg.c, reject
 host-keyword, trace.qq.com, reject
 host-keyword, trace.video.qq.com, reject
 ip-cidr, 47.110.187.87/32, reject
@@ -618,6 +665,7 @@ ip-cidr, 180.76.76.200/32, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
+host, baichuan-sdk.alicdn.com, reject
 host, dns.alidns.com, reject
 host, ems.youku.com, reject
 host-suffix, mpush-api.aliyun.com, reject
@@ -719,13 +767,6 @@ host, ems.youku.com, reject
 host-suffix, api.dsp.yhd.com, reject
 host-suffix, tracker.yhd.com, reject
 # > 云闪付 - 95516
-host, ads.95516.com, reject
-host, analytics.95516.com, reject
-host, tysdk.95516.com, reject
-host, cm-10-138.getui.com, reject
-host, c-hzgt2.getui.com, reject
-host, sdk.open.talk.getui.net, reject
-host, sdk-conf.getui.com, reject
 host, switch.cup.com.cn, reject
 host, ads.cup.com.cn, reject
 # > 51cto - 51CTO
