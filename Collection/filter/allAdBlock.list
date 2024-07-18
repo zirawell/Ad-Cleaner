@@ -68,6 +68,24 @@ ip-cidr, 103.143.160.209/32, reject
 ip-cidr, 210.13.85.204/32, reject
 # > 太平洋保险 - CPIC
 host, a.cpic.com.cn, reject
+# > 搜狗输入法 - SOGOU
+host-suffix, shouji.sougou.com, reject
+host-suffix, epro.sogou.com, reject
+host-suffix, golden1.sogou.com, reject
+host-suffix, inte.sogou.com, reject
+host-suffix, inte.sogoucdn.com, reject
+host-suffix, lu.sogoucdn.com, reject
+host-suffix, theta.sogoucdn.com, reject
+host-suffix, uranus.sogou.com, reject
+host-suffix, 123.sogou.com, reject
+host-suffix, a1click.cpc.sogou.com, reject
+host-suffix, adsence.sogou.com, reject
+host-suffix, adstream.123.sogoucdn.com, reject
+host-suffix, amfi.gou.sogou.com, reject
+host-suffix, athena.wan.sogou.com, reject
+host-suffix, bazinga.mse.sogou.com, reject
+host-suffix, brand.sogou.com, reject
+host-suffix, bsiet.husky.sogou.com, reject
 # > 上海银行 - BOSC
 host-suffix, pmbanalysis.bosc.cn, reject
 host-suffix, pmbmpush.bosc.cn, reject
@@ -239,6 +257,7 @@ host, waapdg.jd.com, reject
 host, dsp-x.jd.com, reject
 host, xlog.jd.com, reject
 host, janapi.jd.com, reject
+host, jdqd.jd.com, reject
 ip-cidr, 101.124.19.122/32, reject
 ip6-cidr, 2402:db40:5100:1011::5/128, reject
 # > 金山词霸 - ICIBA
