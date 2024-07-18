@@ -274,7 +274,15 @@ host, g-adnet.dutils.com, reject
 host, g-adnet.hiaiabc.com, reject
 host, st7niu.aicarmap.com, reject
 # > 汽车之家 - AUTOHOME
-host, adproxy.autohome.com.cn, reject
+host, rd.autohome.com.cn, reject
+host, al.autohome.com.cn, reject
+host, adm0.autoimg.cn, reject
+host, adm1.autoimg.cn, reject
+host, adm2.autoimg.cn, reject
+host, adm3.autoimg.cn, reject
+host-keyword, collectionpv.che168.com, reject
+host-keyword, adproxy.autohome.com, reject
+host-keyword, applogapi.autohome.com, reject
 # > 亲宝宝 - QBB
 host-suffix, apilog.qbb6.com, reject
 # > 小鹏汽车 - XPENG
