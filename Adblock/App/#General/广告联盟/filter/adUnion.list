@@ -47,9 +47,18 @@ host, utoken.umeng.com, reject
 host, deeplink.umeng.com, reject
 host, aspect-upush.umeng.com, reject
 # > 谷歌 - GOOGLE
-host, www.googleadservices.com, reject
+host-suffix, googleadsserving.cn, reject
+host-suffix, googleadservices.com, reject
+host-suffix, googlecommerce.com, reject
 host-suffix, adservice.google.com, reject
+host-suffix, mobileads.google.com, reject
+host-suffix, google-analytics.com, reject
+host-suffix, googlesyndication.com, reject
+host-suffix, googletagservices.com, reject
+host-suffix, googletagmanager.com, reject
+host-suffix, l.google.com, reject
 host-keyword, pagead2.google, reject
+host-keyword, ad.google, reject
 # > 苹果 - APPLE
 host, advertising.apple.com, reject
 host, api-adservices.apple.com, reject
