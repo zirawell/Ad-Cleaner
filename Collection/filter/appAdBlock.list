@@ -426,9 +426,6 @@ host-suffix, u3.ucweb.com, reject
 ip-cidr, 119.29.29.98/32, reject
 ip-cidr, 119.29.29.99/32, reject
 ip-cidr, 81.71.61.216/32, reject
-host, serveraddr.service.kugou.com, reject
-host, twns.p2ptun.qq.com, reject
-host, tp2p.kg.qq.com, reject
 # > Adobe Flash China Special Edition - ADSEUNLOCK
 host, geo2.adobe.com, reject
 # > 腾讯系通用 - TCGENERAL
@@ -446,6 +443,8 @@ host, adstats.tencentmusic.com, reject
 host, ad.tencentmusic.com, reject
 host, mc.tencentmusic.com, reject
 host, report.tencentmusic.com, reject
+host, twns.p2ptun.qq.com, reject
+host, tp2p.kg.qq.com, reject
 host-suffix, btrace.qq.com, reject
 host-suffix, beacon.qq.com, reject
 host-suffix, gdt.qq.com, reject
@@ -633,6 +632,7 @@ host, adserviceretry.kugou.com, reject
 host, adserviceretry.kglink.cn, reject
 host, adservice.kugou.com, reject
 host, splashimgbssdl.yun.kugou.com, reject
+host, serveraddr.service.kugou.com, reject
 # > 酷我音乐 - KUWO
 host, g.koowo.com, reject
 host, mobilead.kuwo.cn, reject

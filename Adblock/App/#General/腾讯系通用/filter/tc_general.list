@@ -13,6 +13,8 @@ host, adstats.tencentmusic.com, reject
 host, ad.tencentmusic.com, reject
 host, mc.tencentmusic.com, reject
 host, report.tencentmusic.com, reject
+host, twns.p2ptun.qq.com, reject
+host, tp2p.kg.qq.com, reject
 host-suffix, btrace.qq.com, reject
 host-suffix, beacon.qq.com, reject
 host-suffix, gdt.qq.com, reject

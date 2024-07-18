@@ -5,3 +5,4 @@ host, adserviceretry.kugou.com, reject
 host, adserviceretry.kglink.cn, reject
 host, adservice.kugou.com, reject
 host, splashimgbssdl.yun.kugou.com, reject
+host, serveraddr.service.kugou.com, reject
