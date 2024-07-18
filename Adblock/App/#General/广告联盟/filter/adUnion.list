@@ -90,6 +90,7 @@ host, info6.video.qq.com, reject
 host, ios.video.mpush.qq.com, reject
 host, otheve.beacon.qq.com, reject
 host, pgdt.gtimg.cn, reject
+host, pgdt.gtimg.com, reject
 host, tmead.y.qq.com, reject
 host, tmeadbak.y.qq.com, reject
 host, tmeadcomm.y.qq.com, reject
@@ -106,6 +107,7 @@ host-suffix, bugly.qq.com, reject
 host-suffix, btrace.qq.com, reject
 host-suffix, beacon.qq.com, reject
 host-suffix, l.qq.com, reject
+host-suffix, oth.eve.mdt.qq.com, reject
 host-keyword, trace.qq.com, reject
 host-keyword, trace.video.qq.com, reject
 ip-cidr, 47.110.187.87/32, reject
