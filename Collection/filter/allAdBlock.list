@@ -68,6 +68,9 @@ ip-cidr, 103.143.160.209/32, reject
 ip-cidr, 210.13.85.204/32, reject
 # > 太平洋保险 - CPIC
 host, a.cpic.com.cn, reject
+# > 同花顺 - TONGHUASHUN
+host, adm.10jqka.com.cn, reject
+host, stat.10jqka.com.cn, reject
 # > 搜狗输入法 - SOGOU
 host-suffix, shouji.sougou.com, reject
 host-suffix, epro.sogou.com, reject
