@@ -545,7 +545,7 @@ host, sdk.e.qq.com, reject
 host, i.gtimg.cn, reject
 host-suffix, ugdtimg.com, reject
 host-suffix, gdt.qq.com, reject
-# > 安全限制解除 - UNLOCKSAFE
+# > 安全浏览限制解除 - UNLOCKSAFE
 host, lookup.api.bsb.baidu.com, reject
 host, proxy.safebrowsing.apple, reject
 host, safebrowsing.g.applimg.com, reject
@@ -555,6 +555,15 @@ host, token.safebrowsing.apple, reject
 host, vs6.bj2ct.u3.ucweb.com, reject
 host-suffix, safebrowsing.apple, reject
 host-suffix, u3.ucweb.com, reject
+# > DNS拦截 - DNSINTERCEPT
+ip-cidr, 119.29.29.98/32, reject
+ip-cidr, 119.29.29.99/32, reject
+ip-cidr, 81.71.61.216/32, reject
+host, serveraddr.service.kugou.com, reject
+host, twns.p2ptun.qq.com, reject
+host, tp2p.kg.qq.com, reject
+# > Adobe Flash China Special Edition - ADSEUNLOCK
+host, geo2.adobe.com, reject
 # > 腾讯系通用 - TCGENERAL
 host, adsmind.gdtimg.com, reject
 host, info4.video.qq.com, reject
@@ -599,13 +608,6 @@ host, adx-bj.anythinktech.com, reject
 host, api.anythinktech.com, reject
 host, tk.anythinktech.com, reject
 host, da.anythinktech.com, reject
-# > DNS拦截 - DNS
-ip-cidr, 119.29.29.98/32, reject
-ip-cidr, 119.29.29.99/32, reject
-ip-cidr, 81.71.61.216/32, reject
-host, serveraddr.service.kugou.com, reject
-host, twns.p2ptun.qq.com, reject
-host, tp2p.kg.qq.com, reject
 # > keep - KEEP
 host, hc-ssp.sm.cn, reject
 host, apm.gotokeep.com, reject
