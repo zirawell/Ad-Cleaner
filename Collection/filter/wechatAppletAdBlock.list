@@ -10,6 +10,8 @@ host, dsp.fcbox.com, reject
 host, api.hongyibo.com.cn, reject
 # > 猫眼电影<微信小程序> - MAOYAN
 host, ad.maoyan.com, reject
+# > 朵朵校友圈 - DUODUO
+host-suffix, ad.duoduo.link, reject
 # > 全球泊<微信公众号> - QUANQIUBO
 host, api.zysdsk.cn, reject
 # > 小电充电<微信小程序> - XIAODIAN
