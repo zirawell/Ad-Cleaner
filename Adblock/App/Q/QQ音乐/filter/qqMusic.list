@@ -1,7 +1,7 @@
 # > QQ音乐 - QQMUSIC
-host, adstats.tencentmusic.com, reject
 host, ad.tencentmusic.com, reject
 host, adcdn.tencentmusic.com, reject
+host, adstats.tencentmusic.com, reject
 host, adcdn6.tencentmusic.com, reject
 host, adexpo.tencentmusic.com, reject
 host, adclick.tencentmusic.com, reject
