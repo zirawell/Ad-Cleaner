@@ -1,8 +1,5 @@
 # > U净 - UJING
 host-suffix, ads.zhinengxiyifang.cn, reject
-# > udnNews - UDNNEWS
-host-suffix, pubads.g.doubleclick.net, reject
-host-suffix, pagead2.googleadservices.com, reject
 # > 阳光惠生活 - CEBBANK
 host-keyword, talk.bz.getui.com, reject
 # > 发现精彩 - 95508
@@ -225,6 +222,14 @@ host, ads.iconntech.com, reject
 host-suffix, track.bankcomm.com, reject
 # > 米家 - MIHOME
 host, sdkconfig.ad.xiaomi.com, reject
+# > 咪咕视频 - MIGUVIDEO
+host, ggic03.miguvideo.com, reject
+host, ggmk.miguvideo.com, reject
+host, ggc.cmvideo.cn, reject
+host, ggv.cmvideo.cn, reject
+host, ggx.cmvideo.cn, reject
+host, ggx03.miguvideo.com, reject
+host-suffix, ad.cmvideo.cn, reject
 # > 美团 - MEITUAN
 ip-cidr, 103.37.155.60/32, reject
 host, flowplus.meituan.net, reject
@@ -279,6 +284,16 @@ host, dsp-x.jd.com, reject
 host, xlog.jd.com, reject
 host, janapi.jd.com, reject
 host, jdqd.jd.com, reject
+host-suffix, jzt.jd.com, reject
+host-suffix, img-x.jd.com, reject
+host-suffix, du.jd.com, reject
+host-suffix, c-nfa.jd.com, reject
+host-suffix, cm.jd.com, reject
+host-keyword, policy.jd.com, reject
+host-keyword, kepler.jd.com, reject
+host-keyword, bdsp.x.jd.com, reject
+host-keyword, keplerapi.jd.com, reject
+host-keyword, mapi.m.jd.com, reject
 ip-cidr, 101.124.19.122/32, reject
 ip6-cidr, 2402:db40:5100:1011::5/128, reject
 # > 金山词霸 - ICIBA
@@ -426,7 +441,9 @@ host-suffix, pangle.io, reject
 host-suffix, appier.net, reject
 host-suffix, adsmoloco.com, reject
 host-suffix, adcanvas.com, reject
+host-suffix, analytics.snssdk.com, reject
 host-keyword, -ad-sign.byteimg.com, reject
+host-keyword, -pack.byteimg.com, reject
 host-keyword, -analytics.bytescm.com, reject
 host-keyword, -tos.pstatp.com, reject
 host-keyword, asiad.byteactivity, reject
@@ -435,6 +452,7 @@ host-keyword, pangolin.snssdk.com, reject
 host-keyword, pglstatp-toutiao, reject
 host-keyword, video-cn.snssdk.com, reject
 host-keyword, ads.g.doubleclick, reject
+host-keyword, log.snssdk.com, reject
 # > 快手 - KUAISHOU
 host, gdfp.gifshow.com, reject
 host, open.kuaishou.com, reject
@@ -746,9 +764,19 @@ host-keyword, c1img.ali.kugou.com, reject
 host-keyword, logwebs.kugou.com, reject
 host-keyword, trackercdnbj.kugou.com, reject
 # > 酷我音乐 - KUWO
-host, g.koowo.com, reject
-host, mobilead.kuwo.cn, reject
-host, rich.kuwo.cn, reject
+host-suffix, g.koowo.com, reject
+host-suffix, c.kuwo.cn, reject
+host-suffix, wa.kuwo.cn, reject
+host-suffix, mobilead.kuwo.cn, reject
+host-suffix, rich.kuwo.cn, reject
+host-suffix, deliver.kuwo.cn, reject
+host-suffix, game.kuwo.cn, reject
+host-suffix, kuwoyy.com, reject
+host-suffix, kwmsg.kuwo.cn, reject
+host-suffix, msclick2.kuwo.cn, reject
+host-suffix, msphoneclick.kuwo.cn, reject
+host-suffix, updatepage.kuwo.cn, reject
+host-suffix, webstat.kuwo.cn, reject
 ip-cidr, 111.206.98.63/32, reject
 # > 领英 - LINKEDIN
 host-suffix, ads.linkedin.com, reject

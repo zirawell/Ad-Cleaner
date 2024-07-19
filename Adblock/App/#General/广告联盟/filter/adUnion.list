@@ -28,7 +28,9 @@ host-suffix, pangle.io, reject
 host-suffix, appier.net, reject
 host-suffix, adsmoloco.com, reject
 host-suffix, adcanvas.com, reject
+host-suffix, analytics.snssdk.com, reject
 host-keyword, -ad-sign.byteimg.com, reject
+host-keyword, -pack.byteimg.com, reject
 host-keyword, -analytics.bytescm.com, reject
 host-keyword, -tos.pstatp.com, reject
 host-keyword, asiad.byteactivity, reject
@@ -37,6 +39,7 @@ host-keyword, pangolin.snssdk.com, reject
 host-keyword, pglstatp-toutiao, reject
 host-keyword, video-cn.snssdk.com, reject
 host-keyword, ads.g.doubleclick, reject
+host-keyword, log.snssdk.com, reject
 # > 快手 - KUAISHOU
 host, gdfp.gifshow.com, reject
 host, open.kuaishou.com, reject
