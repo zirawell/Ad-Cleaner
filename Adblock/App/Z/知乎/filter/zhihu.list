@@ -1,4 +1,5 @@
 # > 知乎 - ZHIHU
+user-agent, AVOS*, reject
 host, appcloud.zhihu.com, reject
 host, appcloud2.in.zhihu.com, reject
 host, crash2.zhihu.com, reject

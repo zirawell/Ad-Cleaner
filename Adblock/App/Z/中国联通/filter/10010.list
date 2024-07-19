@@ -1,2 +1,2 @@
 # > 中国联通 - 10010
-host-suffix, m1.ad.10010.com, reject
+host-suffix, ad.10010.com, reject

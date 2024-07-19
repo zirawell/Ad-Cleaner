@@ -1,0 +1,3 @@
+# > 中关村在线 - ZOL
+host, apppv.zol.com.cn, reject
+host, pvnapp.zol.com.cn, reject

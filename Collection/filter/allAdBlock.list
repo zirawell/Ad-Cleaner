@@ -18,6 +18,7 @@ host-keyword, ads.amap.com, reject
 # > 中国移动 - 10086
 ip-cidr, 120.240.95.37/32, reject
 # > 知乎 - ZHIHU
+user-agent, AVOS*, reject
 host, appcloud.zhihu.com, reject
 host, appcloud2.in.zhihu.com, reject
 host, crash2.zhihu.com, reject
@@ -46,8 +47,11 @@ ip-cidr, 122.229.29.89/32, reject
 host, adgw.alipay.com, reject
 host-suffix, mdap.alipay.com, reject
 host-suffix, loggw.alipay.com.cn, reject
+# > 中关村在线 - ZOL
+host, apppv.zol.com.cn, reject
+host, pvnapp.zol.com.cn, reject
 # > 中国联通 - 10010
-host-suffix, m1.ad.10010.com, reject
+host-suffix, ad.10010.com, reject
 # > Talkatone - TALKATONE
 host-suffix, tappx.com, reject
 # > 同程旅行 - 17U
@@ -454,11 +458,12 @@ host-suffix, appsflyer.com, reject
 host-suffix, appsflyersdk.com, reject
 host-suffix, adjust.com, reject
 host-suffix, app-measurement.com, reject
-host-suffix, pangle.io, reject
+host-suffix, anythinktech.com, reject
 host-suffix, appier.net, reject
 host-suffix, adsmoloco.com, reject
 host-suffix, adcanvas.com, reject
 host-suffix, analytics.snssdk.com, reject
+host-suffix, pangle.io, reject
 host-keyword, -ad-sign.byteimg.com, reject
 host-keyword, -pack.byteimg.com, reject
 host-keyword, -analytics.bytescm.com, reject
@@ -497,6 +502,11 @@ host-suffix, googletagmanager.com, reject
 host-suffix, l.google.com, reject
 host-keyword, pagead2.google, reject
 host-keyword, ad.google, reject
+# > 微软 - MICROSOFT
+host-suffix, ads1.msn.com, reject
+host-suffix, ads2.msn.com, reject
+host-keyword, ads.msn.com, reject
+host-keyword, ads.microsoft.com, reject
 # > 苹果 - APPLE
 host, advertising.apple.com, reject
 host, api-adservices.apple.com, reject
@@ -711,10 +721,9 @@ ip-cidr, 59.82.121.83/32, reject
 # > 网易系 - NETEASE
 host, nex.163.com, reject
 host, iad.g.163.com, reject
-host, adx-bj.anythinktech.com, reject
-host, api.anythinktech.com, reject
-host, tk.anythinktech.com, reject
-host, da.anythinktech.com, reject
+host, n.3g.163.com, reject
+host, g1.163.com, reject
+host, ad.bn.netease.com, reject
 host-suffix, analytics.163.com, reject
 host-suffix, httpdns.n.netease.com, reject
 # > 安全浏览限制解除 - UNLOCKSAFE

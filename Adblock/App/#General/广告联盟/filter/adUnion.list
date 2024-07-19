@@ -24,11 +24,12 @@ host-suffix, appsflyer.com, reject
 host-suffix, appsflyersdk.com, reject
 host-suffix, adjust.com, reject
 host-suffix, app-measurement.com, reject
-host-suffix, pangle.io, reject
+host-suffix, anythinktech.com, reject
 host-suffix, appier.net, reject
 host-suffix, adsmoloco.com, reject
 host-suffix, adcanvas.com, reject
 host-suffix, analytics.snssdk.com, reject
+host-suffix, pangle.io, reject
 host-keyword, -ad-sign.byteimg.com, reject
 host-keyword, -pack.byteimg.com, reject
 host-keyword, -analytics.bytescm.com, reject
@@ -67,6 +68,11 @@ host-suffix, googletagmanager.com, reject
 host-suffix, l.google.com, reject
 host-keyword, pagead2.google, reject
 host-keyword, ad.google, reject
+# > 微软 - MICROSOFT
+host-suffix, ads1.msn.com, reject
+host-suffix, ads2.msn.com, reject
+host-keyword, ads.msn.com, reject
+host-keyword, ads.microsoft.com, reject
 # > 苹果 - APPLE
 host, advertising.apple.com, reject
 host, api-adservices.apple.com, reject
@@ -281,9 +287,8 @@ ip-cidr, 59.82.121.83/32, reject
 # > 网易系 - NETEASE
 host, nex.163.com, reject
 host, iad.g.163.com, reject
-host, adx-bj.anythinktech.com, reject
-host, api.anythinktech.com, reject
-host, tk.anythinktech.com, reject
-host, da.anythinktech.com, reject
+host, n.3g.163.com, reject
+host, g1.163.com, reject
+host, ad.bn.netease.com, reject
 host-suffix, analytics.163.com, reject
 host-suffix, httpdns.n.netease.com, reject
