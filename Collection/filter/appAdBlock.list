@@ -387,9 +387,8 @@ host-suffix, adse.wsa.ximalaya.com, reject
 host-suffix, adbehavior.wsa.ximalaya.com, reject
 host-suffix, adsebs.ximalaya.com, reject
 host-suffix, adbs.ximalaya.com, reject
-# > 小鹏汽车 - XPENG
-host, api-adservices.apple.com, reject
-host, api.weibo.com, reject
+# > 小利生活 - HELIPAY
+host-keyword, mpos-pic.helipay.com, reject
 # > 迅雷 - XUNLEI
 host, adsp.xunlei.com, reject
 host, etl.xlmc.sandai.net, reject
