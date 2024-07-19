@@ -808,6 +808,9 @@ host, ad.lofter.com, reject
 host, ads.youtube.com, reject
 # > 银盛通 - YSEPAY
 host, ad.ysepay.com, reject
+# > 易车 - YICHE
+host, adx.yiche.com, reject
+host, log.ycapp.yiche.com, reject
 # > 优酷 - YOUKU
 host-suffix, ad.youku.com, reject
 host, ems.youku.com, reject
