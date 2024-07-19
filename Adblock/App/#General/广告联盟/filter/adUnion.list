@@ -47,14 +47,13 @@ host, open.e.kuaishou.com, reject
 host-suffix, kuaishouzt.com, reject
 host-suffix, adukwai.com, reject
 # > 友盟 - UMENG
-host, cnlogs.umeng.com, reject
-host, errlog.umeng.com, reject
-host, errnewlog.umeng.com, reject
 host, ucc.umeng.com, reject
-host, ulogs.umeng.com, reject
 host, utoken.umeng.com, reject
 host, deeplink.umeng.com, reject
 host, aspect-upush.umeng.com, reject
+host-keyword, uop.umeng.com, reject
+host-keyword, log.umeng.com, reject
+host-keyword, logs.umeng.com, reject
 # > 谷歌 - GOOGLE
 host-suffix, googleadsserving.cn, reject
 host-suffix, googleadservices.com, reject
