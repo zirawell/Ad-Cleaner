@@ -92,15 +92,13 @@ host-suffix, unityads.unity3d.com, reject
 # > 腾讯系 - TENCENT
 host, mazu.m.qq.com, reject
 host, sdk.e.qq.com, reject
+host, tangram.e.qq.com, reject
 host, i.gtimg.cn, reject
 host, splashqqlive.gtimg.com, reject
 host, tmead.y.qq.com, reject
 host, tmeadbak.y.qq.com, reject
 host, tmeadcomm.y.qq.com, reject
-host, adstats.tencentmusic.com, reject
-host, ad.tencentmusic.com, reject
-host, mc.tencentmusic.com, reject
-host, report.tencentmusic.com, reject
+host, stat.y.qq.com, reject
 host, twns.p2ptun.qq.com, reject
 host, tp2p.kg.qq.com, reject
 host-suffix, tpns.qq.com, reject
