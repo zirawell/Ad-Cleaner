@@ -26,5 +26,7 @@ const blockList = [
 ];
 
 if (blockList?.includes(headopt)) {
-  $done({ status: "HTTP/1.1 404 Not Found" });
+  $done({ status: "HTTP/1.1 204 No Content" });
+} else {
+  $done({});
 }
