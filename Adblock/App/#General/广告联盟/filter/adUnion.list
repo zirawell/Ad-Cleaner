@@ -30,6 +30,7 @@ host-suffix, adsmoloco.com, reject
 host-suffix, adcanvas.com, reject
 host-suffix, analytics.snssdk.com, reject
 host-suffix, pangle.io, reject
+host-suffix, bianxianmao.com, reject
 host-keyword, -ad-sign.byteimg.com, reject
 host-keyword, -pack.byteimg.com, reject
 host-keyword, -analytics.bytescm.com, reject
@@ -293,10 +294,9 @@ host, o2o-ad-log-gateway.alibaba.com, reject
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
 host, baichuan-sdk.alicdn.com, reject
-host, dns.alidns.com, reject
-host, ems.youku.com, reject
 host-suffix, mpush-api.aliyun.com, reject
 host-suffix, ut.taobao.com, reject
+host-keyword, dns.alidns.com, reject
 ip-cidr, 59.82.120.162/32, reject
 ip-cidr, 59.82.122.0/24, reject
 ip-cidr, 59.82.121.225/32, reject
@@ -337,7 +337,7 @@ host-suffix, saxs.sina.com.cn, reject
 host-suffix, sbeacon.sina.com.cn, reject
 host-suffix, slog.sina.com.cn, reject
 host-suffix, woocall.sina.com.cn, reject
-host-suffix, m.beacon.sina.com.cn, reject
+host-suffix, beacon.sina.com.cn, reject
 host-suffix, r.dmp.sina.com.cn, reject
 host-suffix, int.dpool.sina.com.cn, reject
 host-suffix, mg.games.sina.com.cn, reject
@@ -346,5 +346,6 @@ host-suffix, staticadm.leju.sina.com.cn, reject
 host-suffix, cre.mix.sina.com.cn, reject
 host-suffix, interest.mix.sina.com.cn, reject
 host-suffix, s.img.mix.sina.com.cn, reject
+host-suffix, u1.img.mobile.sina.cn, reject
 host-suffix, motu.p4p.sina.com.cn, reject
 host-suffix, count.video.sina.com.cn, reject
