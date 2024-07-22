@@ -377,6 +377,10 @@ host, mc.tencentmusic.com, reject
 host, report.tencentmusic.com, reject
 host, monitor.music.qq.com, reject
 host-suffix, imtmp.net, reject
+# > 蜻蜓FM - QINGTING
+host, ad.qingting.fm, reject
+host, adlaunch.qingting.fm, reject
+host, ad-cdn.qingting.fm, reject
 # > 亲宝宝 - QBB
 host-suffix, apilog.qbb6.com, reject
 # > 喜马拉雅 - XIMA
