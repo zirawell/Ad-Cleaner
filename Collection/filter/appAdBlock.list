@@ -48,8 +48,23 @@ host, adgw.alipay.com, reject
 host-suffix, mdap.alipay.com, reject
 host-suffix, loggw.alipay.com.cn, reject
 # > 中关村在线 - ZOL
-host, apppv.zol.com.cn, reject
-host, pvnapp.zol.com.cn, reject
+host-suffix, apppv.zol.com.cn, reject
+host-suffix, cpro.zol.com.cn, reject
+host-suffix, dynamic.zol.com.cn, reject
+host-suffix, imp.zol.com.cn, reject
+host-suffix, js.zol.com.cn, reject
+host-suffix, mstat.zol.com.cn, reject
+host-suffix, pv.zol.com.cn, reject
+host-suffix, pvc.zol.com.cn, reject
+host-suffix, pvm.zol.com.cn, reject
+host-suffix, pvmsite.zol.com.cn, reject
+host-suffix, pvnapp.zol.com.cn, reject
+host-suffix, pvsite.zol.com.cn, reject
+host-suffix, pvtest.zol.com.cn, reject
+host-suffix, wappv.zol.com.cn, reject
+host-suffix, ydjs.zol.com.cn, reject
+host-suffix, afp.zol-img.com.cn, reject
+host-suffix, pic.zol-img.com.cn, reject
 # > 中国联通 - 10010
 host-suffix, ad.10010.com, reject
 # > Talkatone - TALKATONE
@@ -358,11 +373,24 @@ host, g-adnet.hiaiabc.com, reject
 host, st7niu.aicarmap.com, reject
 # > 汽车之家 - AUTOHOME
 host, rd.autohome.com.cn, reject
+host, rdx.autohome.com.cn, reject
 host, al.autohome.com.cn, reject
 host, adm0.autoimg.cn, reject
 host, adm1.autoimg.cn, reject
 host, adm2.autoimg.cn, reject
 host, adm3.autoimg.cn, reject
+host-suffix, 33.autohome.com.cn, reject
+host-suffix, applogapi.autohome.com.cn, reject
+host-suffix, c.autohome.com.cn, reject
+host-suffix, cmx.autohome.com.cn, reject
+host-suffix, dspmnt.autohome.com.cn, reject
+host-suffix, pcd.autohome.com.cn, reject
+host-suffix, pcmx.autohome.com.cn, reject
+host-suffix, pvx.autohome.com.cn, reject
+host-suffix, pv.alert.autohome.com.cn, reject
+host-suffix, activity.app.autohome.com.cn, reject
+host-suffix, public.app.autohome.com.cn, reject
+host-suffix, push.app.autohome.com.cn, reject
 host-keyword, collectionpv.che168.com, reject
 host-keyword, adproxy.autohome.com, reject
 host-keyword, applogapi.autohome.com, reject
@@ -755,6 +783,44 @@ host, g1.163.com, reject
 host, ad.bn.netease.com, reject
 host-suffix, analytics.163.com, reject
 host-suffix, httpdns.n.netease.com, reject
+# > 新浪系 - SINA
+host-suffix, ad.sina.com.cn, reject
+host-suffix, ad4.sina.com.cn, reject
+host-suffix, adbox.sina.com.cn, reject
+host-suffix, counter.sina.com.cn, reject
+host-suffix, current.sina.com.cn, reject
+host-suffix, d0.sina.com.cn, reject
+host-suffix, d00.sina.com.cn, reject
+host-suffix, d1.sina.com.cn, reject
+host-suffix, d2.sina.com.cn, reject
+host-suffix, d3.sina.com.cn, reject
+host-suffix, d4.sina.com.cn, reject
+host-suffix, d5.sina.com.cn, reject
+host-suffix, d6.sina.com.cn, reject
+host-suffix, d7.sina.com.cn, reject
+host-suffix, d8.sina.com.cn, reject
+host-suffix, d9.sina.com.cn, reject
+host-suffix, dcads.sina.com.cn, reject
+host-suffix, p4p.sina.com.cn, reject
+host-suffix, pfp.sina.com.cn, reject
+host-suffix, rm.sina.com.cn, reject
+host-suffix, sax.sina.com.cn, reject
+host-suffix, saxn.sina.com.cn, reject
+host-suffix, saxs.sina.com.cn, reject
+host-suffix, sbeacon.sina.com.cn, reject
+host-suffix, slog.sina.com.cn, reject
+host-suffix, woocall.sina.com.cn, reject
+host-suffix, m.beacon.sina.com.cn, reject
+host-suffix, r.dmp.sina.com.cn, reject
+host-suffix, int.dpool.sina.com.cn, reject
+host-suffix, mg.games.sina.com.cn, reject
+host-suffix, adm.leju.sina.com.cn, reject
+host-suffix, staticadm.leju.sina.com.cn, reject
+host-suffix, cre.mix.sina.com.cn, reject
+host-suffix, interest.mix.sina.com.cn, reject
+host-suffix, s.img.mix.sina.com.cn, reject
+host-suffix, motu.p4p.sina.com.cn, reject
+host-suffix, count.video.sina.com.cn, reject
 # > 安全浏览限制解除 - UNLOCKSAFE
 host, lookup.api.bsb.baidu.com, reject
 host, safebrowsing.g.applimg.com, reject
