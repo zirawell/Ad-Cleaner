@@ -1,5 +1,4 @@
 # > 广告联盟 - ADUNION
-host, ad.zijieapi.com, reject
 host, adtracker.adfunlink.com, reject
 host, init.supersonicads.com, reject
 host, is.snssdk.com, reject
@@ -31,7 +30,13 @@ host-suffix, adcanvas.com, reject
 host-suffix, analytics.snssdk.com, reject
 host-suffix, pangle.io, reject
 host-suffix, bianxianmao.com, reject
-host-keyword, -ad-sign.byteimg.com, reject
+host-keyword, ads.g.doubleclick, reject
+host-keyword, video-cn.snssdk.com, reject
+host-keyword, log.snssdk.com, reject
+# > 字节 - BYTEDANCE
+host, ad.zijieapi.com, reject
+host-suffix, -normal-lq.zijieapi.com, reject
+host-keyword, ad-sign.byteimg.com, reject
 host-keyword, -pack.byteimg.com, reject
 host-keyword, -analytics.bytescm.com, reject
 host-keyword, -tos.pstatp.com, reject
@@ -39,9 +44,6 @@ host-keyword, asiad.byteactivity, reject
 host-keyword, pangolin-sdk-toutiao, reject
 host-keyword, pangolin.snssdk.com, reject
 host-keyword, pglstatp-toutiao, reject
-host-keyword, video-cn.snssdk.com, reject
-host-keyword, ads.g.doubleclick, reject
-host-keyword, log.snssdk.com, reject
 # > 快手 - KUAISHOU
 host, gdfp.gifshow.com, reject
 host, open.kuaishou.com, reject
@@ -89,13 +91,22 @@ host, qwapi.apple.com, reject
 host-suffix, advp.apple.com, reject
 host-suffix, iad-apple.com, reject
 host-suffix, iadsdk.apple.com, reject
+# > 雅虎 - YAHOO
+host, admarketing.yahoo.net, reject
+host, ads.auctions.yahoo.com, reject
+host, ads.finance.yahoo.com, reject
+host-suffix, adserver.yahoo.com, reject
+host-suffix, adspecs.yahoo.com, reject
+host-suffix, advertising.yahoo.com, reject
+host-suffix, gemini.yahoo.com, reject
+host-keyword, ads.yahoo, reject
 # > 个推 - GETUI
 host-suffix, mobileservice.cn, reject
 host-suffix, getui.com, reject
 host-suffix, igexin.com, reject
 # > Unity3d - UNITY3D
 host-suffix, unityads.unity3d.com, reject
-# > 腾讯系 - TENCENT
+# > 腾讯 - TENCENT
 host, mazu.m.qq.com, reject
 host, i.gtimg.cn, reject
 host, splashqqlive.gtimg.com, reject
@@ -144,7 +155,7 @@ host-keyword, pgdt.gtimg.c, reject
 host-keyword, trace.qq.com, reject
 host-keyword, trace.video.qq.com, reject
 ip-cidr, 47.110.187.87/32, reject
-# > 百度系 - BAIDU
+# > 百度 - BAIDU
 host, als.baidu.com, reject
 host, duclick.baidu.com, reject
 host, mobads.baidu.com, reject
@@ -289,7 +300,7 @@ host-suffix, yingxiao.baidu.com, reject
 host-suffix, znsv.baidu.com, reject
 ip-cidr, 180.76.76.112/32, reject
 ip-cidr, 180.76.76.200/32, reject
-# > 阿里系 - ALIBABA
+# > 阿里 - ALIBABA
 host, o2o-ad-log-gateway.alibaba.com, reject
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
@@ -302,7 +313,7 @@ ip-cidr, 59.82.122.0/24, reject
 ip-cidr, 59.82.121.225/32, reject
 ip-cidr, 59.82.121.31/32, reject
 ip-cidr, 59.82.121.83/32, reject
-# > 网易系 - NETEASE
+# > 网易 - NETEASE
 host, nex.163.com, reject
 host, iad.g.163.com, reject
 host, n.3g.163.com, reject
@@ -310,7 +321,7 @@ host, g1.163.com, reject
 host, ad.bn.netease.com, reject
 host-suffix, analytics.163.com, reject
 host-suffix, httpdns.n.netease.com, reject
-# > 新浪系 - SINA
+# > 新浪 - SINA
 host-suffix, ad.sina.com.cn, reject
 host-suffix, ad4.sina.com.cn, reject
 host-suffix, adbox.sina.com.cn, reject
