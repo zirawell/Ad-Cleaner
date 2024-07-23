@@ -6,27 +6,18 @@ host, hdns.ksyun.com, reject
 host, et.tanx.com, reject
 host, adservice.sigmob.cn, reject
 host, adttrackingprd.hwwt8.com, reject
-host, sdk.beizi.biz, reject
 host, sdk.tianmu.mobi, reject
-host, ztoken.uyunad.com, reject
 host, config.inmobi.cn, reject
-host, api-c.dutils.com, reject
-host, api-d.dutils.com, reject
 host, api-p0.yksdks.com, reject
-host, cache-verify.dutils.com, reject
-host, cdn-api-verify.dutils.com, reject
-host, devs-data.dutils.com, reject
-host, log-verify.dutils.com, reject
-host, m.mpl.dutils.com, reject
 host, api.share.mob.com, reject
 host, api.verify.mob.com, reject
 host, log-verify.mob.com, reject
 host, sdk.push.mob.com, reject
-host, e-u1.ubixioe.com, reject
-host, sdk-data.ubixioe.com, reject
-host, tower.ubixioe.com, reject
-host, tx-cfg-u1.ubixioe.com, reject
-host, tx-data-u1.ubixioe.com, reject
+host, api.adnet.mob.com, reject
+host-suffix, ubixioe.com, reject
+host-suffix, dutils.com, reject
+host-suffix, uyunad.com, reject
+host-suffix, beizi.biz, reject
 host-suffix, openinstall.io, reject
 host-suffix, doubleclick-cn.net, reject
 host-suffix, doubleclick.net, reject
@@ -41,7 +32,6 @@ host-suffix, anythinktech.com, reject
 host-suffix, appier.net, reject
 host-suffix, adsmoloco.com, reject
 host-suffix, adcanvas.com, reject
-host-suffix, pangle.io, reject
 host-suffix, bianxianmao.com, reject
 host-suffix, jiguang.cn, reject
 host-suffix, jpush.cn, reject
@@ -51,7 +41,6 @@ host-suffix, miaozhen.com, reject
 host-keyword, ads.g.doubleclick, reject
 host-keyword, iflyad.bj.openstorage.cn, reject
 host-keyword, bjimp.voiceads.cn, reject
-host-keyword, -adnet.dutils.com, reject
 host-keyword, -adnet.hiaiabc.com, reject
 # > 字节 - BYTEDANCE
 host, ad.zijieapi.com, reject
@@ -69,6 +58,7 @@ host, tosv.boe.byted.org, reject
 host, tosv.byted.org, reject
 host, mssdk.volces.com, reject
 host, mssdk-bu.bytedance.com, reject
+host-suffix, pangle.io, reject
 host-suffix, -normal-lq.zijieapi.com, reject
 host-suffix, analytics.snssdk.com, reject
 host-keyword, video-cn.snssdk.com, reject
@@ -96,6 +86,7 @@ host, aspect-upush.umeng.com, reject
 host, log.umtrack.com, reject
 host, log.umsns.com, reject
 host, aaid.umeng.com, reject
+host, msg.umengcloud.com, reject
 host-keyword, uop.umeng.com, reject
 host-keyword, log.umeng.com, reject
 host-keyword, logs.umeng.com, reject
@@ -360,6 +351,7 @@ host, beacon-api.aliyuncs.com, reject
 host, adash.man.aliyuncs.com, reject
 host-suffix, mpush-api.aliyun.com, reject
 host-suffix, ut.taobao.com, reject
+host-keywordm baichuan.m.taobao.comm reject
 host-keyword, dns.alidns.com, reject
 ip-cidr, 59.82.120.162/32, reject
 ip-cidr, 59.82.122.0/24, reject

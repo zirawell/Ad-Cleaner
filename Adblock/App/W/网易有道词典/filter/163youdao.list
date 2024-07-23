@@ -1,0 +1,6 @@
+# > 网易有道词典 - 163YOUDAO
+host, gorgon.youdao.com, reject
+host, impservice.dictapp.youdao.com, reject
+host, impservice.youdao.com, reject
+host-suffix, dsp.youdao.com, reject
+host-suffix, union.youdao.com, reject
