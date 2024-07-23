@@ -351,7 +351,7 @@ host, adash.man.aliyuncs.com, reject
 host-suffix, mpush-api.aliyun.com, reject
 host-suffix, ut.taobao.com, reject
 host-suffix, tunion-api.m.taobao.com, reject
-host-keyword, baichuan.m.taobao.comm reject
+host-keyword, baichuan.m.taobao.com, reject
 host-keyword, dns.alidns.com, reject
 ip-cidr, 59.82.120.162/32, reject
 ip-cidr, 59.82.122.0/24, reject
