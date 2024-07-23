@@ -1,16 +1,35 @@
 # > 广告联盟 - ADUNION
 host, adtracker.adfunlink.com, reject
 host, init.supersonicads.com, reject
-host, is.snssdk.com, reject
 host, ws.tapjoyads.com, reject
 host, hdns.ksyun.com, reject
 host, et.tanx.com, reject
 host, adservice.sigmob.cn, reject
 host, adttrackingprd.hwwt8.com, reject
+host, sdk.beizi.biz, reject
+host, sdk.tianmu.mobi, reject
+host, ztoken.uyunad.com, reject
+host, config.inmobi.cn, reject
+host, api-c.dutils.com, reject
+host, api-d.dutils.com, reject
+host, api-p0.yksdks.com, reject
+host, cache-verify.dutils.com, reject
+host, cdn-api-verify.dutils.com, reject
+host, devs-data.dutils.com, reject
+host, log-verify.dutils.com, reject
+host, m.mpl.dutils.com, reject
+host, api.share.mob.com, reject
+host, api.verify.mob.com, reject
+host, log-verify.mob.com, reject
+host, sdk.push.mob.com, reject
+host, e-u1.ubixioe.com, reject
+host, sdk-data.ubixioe.com, reject
+host, tower.ubixioe.com, reject
+host, tx-cfg-u1.ubixioe.com, reject
+host, tx-data-u1.ubixioe.com, reject
 host-suffix, openinstall.io, reject
 host-suffix, doubleclick-cn.net, reject
 host-suffix, doubleclick.net, reject
-
 host-suffix, ads.vungle.com, reject
 host-suffix, applovin.com, reject
 host-suffix, applvn.com, reject
@@ -22,28 +41,40 @@ host-suffix, anythinktech.com, reject
 host-suffix, appier.net, reject
 host-suffix, adsmoloco.com, reject
 host-suffix, adcanvas.com, reject
-host-suffix, analytics.snssdk.com, reject
 host-suffix, pangle.io, reject
 host-suffix, bianxianmao.com, reject
-host-keyword, ads.g.doubleclick, reject
-host-keyword, video-cn.snssdk.com, reject
-host-keyword, log.snssdk.com, reject
-# > 极光 - JIGUANG
 host-suffix, jiguang.cn, reject
 host-suffix, jpush.cn, reject
 host-suffix, jpush.io, reject
-# > 艾狄墨搏 - ADMOBILE
 host-suffix, admobile.top, reject
-# > 秒针 - MIAOZEHN
 host-suffix, miaozhen.com, reject
-# > 倍孜 - BEIZI
-host, sdk.beizi.biz, reject
-# > 天目 - TIANMU
-host, sdk.tianmu.mobi, reject
+host-keyword, ads.g.doubleclick, reject
+host-keyword, iflyad.bj.openstorage.cn, reject
+host-keyword, bjimp.voiceads.cn, reject
+host-keyword, -adnet.dutils.com, reject
+host-keyword, -adnet.hiaiabc.com, reject
 # > 字节 - BYTEDANCE
 host, ad.zijieapi.com, reject
+host, mon.zijieapi.com, reject
+host, i.snssdk.com, reject
+host, is.snssdk.com, reject
+host, bds.snssdk.com, reject
+host, sdfp.snssdk.com, reject
+host, toblog.ctobsnssdk.com, reject
+host, dm.pstatp.com, reject
+host, dm.toutiao.com, reject
+host, dm.bytedance.com, reject
+host, s3a.pstatp.com, reject
+host, tosv.boe.byted.org, reject
+host, tosv.byted.org, reject
+host, mssdk.volces.com, reject
+host, mssdk-bu.bytedance.com, reject
 host-suffix, -normal-lq.zijieapi.com, reject
+host-suffix, analytics.snssdk.com, reject
+host-keyword, video-cn.snssdk.com, reject
+host-keyword, log.snssdk.com, reject
 host-keyword, ad-sign.byteimg.com, reject
+host-keyword, -ad.byteoversea.com, reject
 host-keyword, -pack.byteimg.com, reject
 host-keyword, -analytics.bytescm.com, reject
 host-keyword, -tos.pstatp.com, reject
