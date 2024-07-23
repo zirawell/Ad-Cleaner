@@ -20,7 +20,7 @@ http-response ^https?:\/\/common\.diditaxi\.com\.cn\/common\/v\d\/usercenter\/me
 http-response ^https?:\/\/api\.udache\.com\/gulfstream\/pre-sale\/v\d\/other\/pGetSceneList script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
 
 [MITM]
-hostname = ct.xiaojukeji.com, freight.xiaojukeji.com, res.xiaojukeji.com, conf.diditaxi.com.cn, common.diditaxi.com.cn
+hostname = conf.diditaxi.com.cn, common.diditaxi.com.cn, api.udache.com
 ********************************/
 
 const url = $request.url;
