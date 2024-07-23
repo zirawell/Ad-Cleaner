@@ -346,6 +346,16 @@ host, minfo.wps.cn, reject
 host, mobad.ijinshan.com, reject
 host, ups.ksmobile.net, reject
 host, ws.ksmobile.net, reject
+# > 今日头条 - TOUTIAO
+host-suffix, ad.toutiao.com, reject
+host-suffix, dm.toutiao.com, reject
+host-suffix, dsp.toutiao.com, reject
+host-suffix, adshare.toutiao.com, reject
+host-keyword, s1.pstatp.com, reject
+host-keyword, s2.pstatp.com, reject
+host-keyword, s3.pstatp.com, reject
+host-keyword, a3.pstatp.com, reject
+host-keyword, a3.bytecdn.cn, reject
 # > 驾校一点通 - JXEDT
 host, richmanapi.jxedt.com, reject
 host, richmanmain.jxedt.com, reject
@@ -535,7 +545,6 @@ host, bds.snssdk.com, reject
 host, sdfp.snssdk.com, reject
 host, toblog.ctobsnssdk.com, reject
 host, dm.pstatp.com, reject
-host, dm.toutiao.com, reject
 host, dm.bytedance.com, reject
 host, s3a.pstatp.com, reject
 host, tosv.boe.byted.org, reject
@@ -835,7 +844,8 @@ host, beacon-api.aliyuncs.com, reject
 host, adash.man.aliyuncs.com, reject
 host-suffix, mpush-api.aliyun.com, reject
 host-suffix, ut.taobao.com, reject
-host-keywordm baichuan.m.taobao.comm reject
+host-suffix, tunion-api.m.taobao.com, reject
+host-keyword, baichuan.m.taobao.comm reject
 host-keyword, dns.alidns.com, reject
 ip-cidr, 59.82.120.162/32, reject
 ip-cidr, 59.82.122.0/24, reject
