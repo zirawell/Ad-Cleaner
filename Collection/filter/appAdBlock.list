@@ -486,8 +486,6 @@ host, lc.map.baidu.com, reject
 host, adtracker.adfunlink.com, reject
 host, init.supersonicads.com, reject
 host, is.snssdk.com, reject
-host, log.umsns.com, reject
-host, sdk.tianmu.mobi, reject
 host, ws.tapjoyads.com, reject
 host, hdns.ksyun.com, reject
 host, et.tanx.com, reject
@@ -517,6 +515,8 @@ host-suffix, bianxianmao.com, reject
 host-keyword, ads.g.doubleclick, reject
 host-keyword, video-cn.snssdk.com, reject
 host-keyword, log.snssdk.com, reject
+# > 天目 - TIANMU
+host, sdk.tianmu.mobi, reject
 # > 字节 - BYTEDANCE
 host, ad.zijieapi.com, reject
 host-suffix, -normal-lq.zijieapi.com, reject
@@ -539,6 +539,9 @@ host, ucc.umeng.com, reject
 host, utoken.umeng.com, reject
 host, deeplink.umeng.com, reject
 host, aspect-upush.umeng.com, reject
+host, log.umtrack.com, reject
+host, log.umsns.com, reject
+host, aaid.umeng.com, reject
 host-keyword, uop.umeng.com, reject
 host-keyword, log.umeng.com, reject
 host-keyword, logs.umeng.com, reject
@@ -789,6 +792,8 @@ host, o2o-ad-log-gateway.alibaba.com, reject
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
 host, baichuan-sdk.alicdn.com, reject
+host, beacon-api.aliyuncs.com, reject
+host, adash.man.aliyuncs.com, reject
 host-suffix, mpush-api.aliyun.com, reject
 host-suffix, ut.taobao.com, reject
 host-keyword, dns.alidns.com, reject
