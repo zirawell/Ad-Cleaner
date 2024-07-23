@@ -5,15 +5,12 @@ host, is.snssdk.com, reject
 host, ws.tapjoyads.com, reject
 host, hdns.ksyun.com, reject
 host, et.tanx.com, reject
-host, sdk.beizi.biz, reject
 host, adservice.sigmob.cn, reject
 host, adttrackingprd.hwwt8.com, reject
 host-suffix, openinstall.io, reject
 host-suffix, doubleclick-cn.net, reject
 host-suffix, doubleclick.net, reject
-host-suffix, jiguang.cn, reject
-host-suffix, admobile.top, reject
-host-suffix, miaozhen.com, reject
+
 host-suffix, ads.vungle.com, reject
 host-suffix, applovin.com, reject
 host-suffix, applvn.com, reject
@@ -31,6 +28,16 @@ host-suffix, bianxianmao.com, reject
 host-keyword, ads.g.doubleclick, reject
 host-keyword, video-cn.snssdk.com, reject
 host-keyword, log.snssdk.com, reject
+# > 极光 - JIGUANG
+host-suffix, jiguang.cn, reject
+host-suffix, jpush.cn, reject
+host-suffix, jpush.io, reject
+# > 艾狄墨搏 - ADMOBILE
+host-suffix, admobile.top, reject
+# > 秒针 - MIAOZEHN
+host-suffix, miaozhen.com, reject
+# > 倍孜 - BEIZI
+host, sdk.beizi.biz, reject
 # > 天目 - TIANMU
 host, sdk.tianmu.mobi, reject
 # > 字节 - BYTEDANCE
@@ -111,7 +118,10 @@ host-suffix, igexin.com, reject
 host-suffix, unityads.unity3d.com, reject
 # > 腾讯 - TENCENT
 host, mazu.m.qq.com, reject
+host, appsupport.qq.com, reject
 host, i.gtimg.cn, reject
+host, pgdt.gtimg.cn, reject
+host, qzonestyle.gtimg.cn, reject
 host, splashqqlive.gtimg.com, reject
 host, tmead.y.qq.com, reject
 host, tmeadbak.y.qq.com, reject
@@ -119,6 +129,11 @@ host, tmeadcomm.y.qq.com, reject
 host, stat.y.qq.com, reject
 host, twns.p2ptun.qq.com, reject
 host, tp2p.kg.qq.com, reject
+host, qzs.gdtimg.com, reject
+host, qzs.qq.com, reject
+host, rmonitor.qq.com, reject
+host, huatuocode.huatuo.qq.com, reject
+host, tpstelemetry.tencent.com, reject
 host-suffix, e.qq.com, reject
 host-suffix, l.qq.com, reject
 host-suffix, ad.qq.com, reject
@@ -163,11 +178,13 @@ host, als.baidu.com, reject
 host, duclick.baidu.com, reject
 host, mobads.baidu.com, reject
 host, mobads-logs.baidu.com, reject
+host, mobads-pre-config.cdn.bcebos.com, reject
 host, nadvideo2.baidu.com, reject
 host, nsclick.baidu.com, reject
 host, hmma.baidu.com, reject
 host, feed-image.baidu.com, reject
 host, bgg.baidu.com, reject
+host, wn.pos.baidu.com, reject
 host-suffix, bce.baidu.com, reject
 host-suffix, bar.baidu.com, reject
 host-suffix, duapps.com, reject
