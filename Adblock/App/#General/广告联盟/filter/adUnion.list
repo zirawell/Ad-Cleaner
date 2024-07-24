@@ -352,6 +352,17 @@ host, adash.man.aliyuncs.com, reject
 host-suffix, mpush-api.aliyun.com, reject
 host-suffix, ut.taobao.com, reject
 host-suffix, tunion-api.m.taobao.com, reject
+host-suffix, aecpm.alicdn.com, reject
+host-suffix, afp.alicdn.com, reject
+host-suffix, afpmm.alicdn.com, reject
+host-suffix, asearch.alicdn.com, reject
+host-suffix, atanx.alicdn.com, reject
+host-suffix, atanx2.alicdn.com, reject
+host-suffix, gen.alicdn.com, reject
+host-suffix, gma.alicdn.com, reject
+host-suffix, nbsdk-baichuan.alicdn.com, reject
+host-suffix, strip.alicdn.com, reject
+host-suffix, unidesk.alicdn.com, reject
 host-keyword, baichuan.m.taobao.com, reject
 host-keyword, dns.alidns.com, reject
 ip-cidr, 59.82.120.162/32, reject
