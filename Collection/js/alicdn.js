@@ -18,12 +18,7 @@ hostname = g.alicdn.com
 ********************************/
 
 const url = $request.url;
-const isResponse = typeof $response != "undefined";
+if (!$response.body) $done({});
 let body = $response.body;
-
-if(isResponse){
-  body = body.replace(/!function (e, t)/g,'!function0 (e, t)')
-  $done({ body });
-}else{
-  $done();
-}
+body = body.replace(/!function (e, t)/g,'!function0 (e, t)')
+$done({ body });

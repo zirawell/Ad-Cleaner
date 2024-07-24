@@ -17,16 +17,14 @@ http-response ^https?:\/\/jia\.360\.cn\/conf\/v\d\.json script-path=https://raw.
 hostname = jia.360.cn
 ********************************/
 
+if (!$response.body) $done({});
 let body = $response.body;
-const isResponse = typeof $response !== "undefined";
-if(isResponse){
-  let obj = JSON.parse(body);
-  // 删除 - 我的页面推广语
-  delete obj.activity;
-  // 删除 - 底栏商城入口
-  delete obj.tab_conf["tab_360Mall"];
-  // 删除 - 广告配置
-  delete obj.ad_conf;
-  body = JSON.stringify(obj);
-  $done({ body });
-}
+let obj = JSON.parse(body);
+// 删除 - 我的页面推广语
+delete obj.activity;
+// 删除 - 底栏商城入口
+delete obj.tab_conf["tab_360Mall"];
+// 删除 - 广告配置
+delete obj.ad_conf;
+body = JSON.stringify(obj);
+$done({ body });

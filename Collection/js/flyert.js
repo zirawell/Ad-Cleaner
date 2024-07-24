@@ -19,9 +19,9 @@ hostname = www.flyert.com, www.flyert.com.cn
 
 let body = $response.body;
 let headers = $response.headers;
-const isResponse = typeof $response !== "undefined";
+if (!$response.body) $done({});
 const isJson = headers["Content-Type"] == "application/json";
-if(isResponse && isJson){
+if(isJson){
   let obj = JSON.parse(body);
   if(obj?.Variables){
     let variables = obj.Variables;

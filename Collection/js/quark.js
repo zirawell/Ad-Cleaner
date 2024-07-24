@@ -18,6 +18,7 @@ http-response ^https?:\/\/open-cms-api\.quark\.cn\/open-cms script-path=https://
 hostname = open-cms-api.quark.cn
 ********************************/
 
+if (!$response.body) $done({});
 var json = JSON.parse($response.body);
 
 // 删除指定的路径

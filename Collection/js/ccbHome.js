@@ -18,22 +18,17 @@ hostname = online.sptcc.com
 ********************************/
 
 const url = $request.url;
-const isResponse = typeof $response != "undefined";
+if (!$response.body) $done({});
 let body = $response.body;
-
-if(isResponse){
-  let obj = JSON.parse(body);
-  if(obj?.data?.curtains){
-    obj.data.curtains=[];
-  }
-  if(obj?.data?.startAds){
-    obj.data.startAds=[];
-  }
-  if(obj?.data?.customer){
-    obj.data.customer=null;
-  }
-  body = JSON.stringify(obj);
-  $done({ body });
-}else{
-  $done();
+let obj = JSON.parse(body);
+if(obj?.data?.curtains){
+  obj.data.curtains=[];
 }
+if(obj?.data?.startAds){
+  obj.data.startAds=[];
+}
+if(obj?.data?.customer){
+  obj.data.customer=null;
+}
+body = JSON.stringify(obj);
+$done({ body });

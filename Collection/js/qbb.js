@@ -18,16 +18,11 @@ hostname = webapi.qbb6.com
 ********************************/
 
 const url = $request.url;
-const isResponse = typeof $response != "undefined";
+if (!$response.body) $done({});
 let body = $response.body;
-
-if(isResponse){
-  let obj = JSON.parse(body);
-  if(obj?.adBannerList){
-    obj.adBannerList=[];
-  }
-  body = JSON.stringify(obj);
-  $done({ body });
-}else{
-  $done();
+let obj = JSON.parse(body);
+if(obj?.adBannerList){
+  obj.adBannerList=[];
 }
+body = JSON.stringify(obj);
+$done({ body });

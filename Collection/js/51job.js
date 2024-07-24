@@ -18,11 +18,9 @@ http-response ^https?:\/\/cupid\.51job(app)?\.com\/open\/noauth\/recommend\/job-
 hostname = cupid.51job*.com
 ********************************/
 
+if (!$response.body) $done({});
 let body = $response.body;
-const isResponse = typeof $response !== "undefined";
-if(isResponse){
-  let obj = JSON.parse(body);
-  obj.resultbody.adsTabFeeds=[];
-  body = JSON.stringify(obj);
-  $done({ body });
-}
+let obj = JSON.parse(body);
+obj.resultbody.adsTabFeeds=[];
+body = JSON.stringify(obj);
+$done({ body });

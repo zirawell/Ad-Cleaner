@@ -18,22 +18,17 @@ hostname = online.sptcc.com
 ********************************/
 
 const url = $request.url;
-const isResponse = typeof $response != "undefined";
+if (!$response.body) $done({});
 let body = $response.body;
-
-if(isResponse){
-  let obj = JSON.parse(body);
-  if(obj?.myPageBanner){
-    obj.myPageBanner=[];
-  }
-  if(obj?.mainPage_recommend){
-    obj.mainPage_recommend.waterfallFlow=[];
-  }
-  if(obj?.ggLykLinkArray){
-    obj.ggLykLinkArray=[];
-  }
-  body = JSON.stringify(obj);
-  $done({ body });
-}else{
-  $done();
+let obj = JSON.parse(body);
+if(obj?.myPageBanner){
+  obj.myPageBanner=[];
 }
+if(obj?.mainPage_recommend){
+  obj.mainPage_recommend.waterfallFlow=[];
+}
+if(obj?.ggLykLinkArray){
+  obj.ggLykLinkArray=[];
+}
+body = JSON.stringify(obj);
+$done({ body });

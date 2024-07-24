@@ -22,6 +22,7 @@ hostname = cl-gateway.tuhu.cn
 ********************************/
 
 const url = $request.url;
+if (!$response.body) $done({});
 let obj=JSON.parse($response.body);
 
 if(url.indexOf("/homePage/getHomePageInfo")!=-1){

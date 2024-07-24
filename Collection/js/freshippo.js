@@ -18,6 +18,7 @@ hostname = acs.m.taobao.com, acs-m.freshippo.com
 ********************************/
 
 const url = $request.url;
+if (!$response.body) $done({});
 let obj=JSON.parse($response.body);
 // 首页
 if(url.indexOf("queryindexpage")!=-1){

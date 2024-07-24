@@ -17,36 +17,31 @@ http-response ^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/(app_index|cms_c
 hostname = go.babytree.com, api.babytree.com, plough.babytree.com
 ********************************/
 const url = $request.url;
-const isResponse = typeof $response !== "undefined";
+if (!$response.body) $done({});
 let body = $response.body;
-
-if(isResponse){
-  let obj = JSON.parse(body);
-  if(url.includes("/api/app_index/get_app_tab")){
-    if (obj?.data.selected_list?.length > 0) {
-			let tabs = [];
-			const items = [
-				"首页",
-				"消息",
-				"我",
-			];
-			for (let tab of obj.data.selected_list) {
-				if (items?.includes(tab?.name)) {
-					tabs.push(tab);
-				}
+let obj = JSON.parse(body);
+if(url.includes("/api/app_index/get_app_tab")){
+  if (obj?.data.selected_list?.length > 0) {
+		let tabs = [];
+		const items = [
+			"首页",
+			"消息",
+			"我",
+		];
+		for (let tab of obj.data.selected_list) {
+			if (items?.includes(tab?.name)) {
+				tabs.push(tab);
 			}
-			obj.data.selected_list = tabs;
 		}
-	}else if(url.includes("/api/cms_column")){
-		if (obj?.data.list?.length > 0) {
-			obj.data.bucket_id = '';
-			obj.data.test_id = '';
-			obj.data.log_content = '';
-			obj.data.list = [];
-		}
+		obj.data.selected_list = tabs;
 	}
-  body = JSON.stringify(obj);
-  $done({ body });
-}else{
-  $done();
+}else if(url.includes("/api/cms_column")){
+	if (obj?.data.list?.length > 0) {
+		obj.data.bucket_id = '';
+		obj.data.test_id = '';
+		obj.data.log_content = '';
+		obj.data.list = [];
+	}
 }
+body = JSON.stringify(obj);
+$done({ body });

@@ -21,38 +21,35 @@ http-response ^https?:\/\/nex\.163\.com\/q script-path=https://raw.githubusercon
 hostname = gw.m.163.com, nex.163.com
 ********************************/
 
+if (!$response.body) $done({});
 const url = $request.url;
-const obj = JSON.parse(typeof $response != "undefined" && $response.body || null);
 let body = $response.body;
-if(obj){
-  if (url.includes("/feed/dynamic/headline-list")) {
-    // 信息流
-    if (obj?.data?.items?.length > 0) {
-      // 移除置顶新闻
-      obj.data.items = obj.data.items.filter((i) => !(i?.tagList?.length > 0));
-    }
-  } else if (url.includes("/nex.163.com/q")) {
-    // 开屏广告
-    if (obj?.ads?.length > 0) {
-      obj.ads = [];
-    }
-  } else if (url.includes("/search/hot-word")) {
-    // 搜索框
-    if (obj?.data?.special?.length > 0) {
-      // 猜你想搜
-      obj.data.special = [];
-    }
-    // if (obj?.data?.hotWordList?.length > 0) {
-    //     热搜列表
-    //   obj.data.hotWordList = [];
-    // }
-    if (obj?.data?.RollhotWordList?.length > 0) {
-      // 搜索框填充词
-      obj.data.RollhotWordList = [];
-    }
+
+if (url.includes("/feed/dynamic/headline-list")) {
+  // 信息流
+  if (obj?.data?.items?.length > 0) {
+    // 移除置顶新闻
+    obj.data.items = obj.data.items.filter((i) => !(i?.tagList?.length > 0));
   }
-  body = JSON.stringify(obj);
-  $done({ body });
-}else{
-  $done();
+} else if (url.includes("/nex.163.com/q")) {
+  // 开屏广告
+  if (obj?.ads?.length > 0) {
+    obj.ads = [];
+  }
+} else if (url.includes("/search/hot-word")) {
+  // 搜索框
+  if (obj?.data?.special?.length > 0) {
+    // 猜你想搜
+    obj.data.special = [];
+  }
+  // if (obj?.data?.hotWordList?.length > 0) {
+  //     热搜列表
+  //   obj.data.hotWordList = [];
+  // }
+  if (obj?.data?.RollhotWordList?.length > 0) {
+    // 搜索框填充词
+    obj.data.RollhotWordList = [];
+  }
 }
+body = JSON.stringify(obj);
+$done({ body });

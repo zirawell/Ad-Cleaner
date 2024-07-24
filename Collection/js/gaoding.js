@@ -20,6 +20,7 @@ hostname = www.gaoding.com
 ********************************/
 
 const url = $request.url;
+if (!$response.body) $done({});
 let obj=JSON.parse($response.body);
 if(url.indexOf("/oc/exhibitions/template/resources")!=-1){
   // 移除首页轮播图

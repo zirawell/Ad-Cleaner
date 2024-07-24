@@ -17,14 +17,11 @@ http-response ^https?:\/\/creditcardapp\.bankcomm\.com\/rcg\/index\.html\?callba
 hostname = *.bankcomm.com, *.bankcomm.cn
 ********************************/
 const resp = {};
-
-if (typeof $response !== "undefined") {
-  // 买单吧-充值页面
-  var parser = new DOMParser();
-  var doc = parser.parseFromString($response.body, "text/html");
-  var element = doc.getElementById("banner");
-  element.parentNode.removeChild(element);
-  resp.body = doc.documentElement.outerHTML;
-} 
-
+if (!$response.body) $done({});
+// 买单吧-充值页面
+var parser = new DOMParser();
+var doc = parser.parseFromString($response.body, "text/html");
+var element = doc.getElementById("banner");
+element.parentNode.removeChild(element);
+resp.body = doc.documentElement.outerHTML;
 $done(resp);

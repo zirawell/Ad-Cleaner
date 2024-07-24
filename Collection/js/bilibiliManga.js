@@ -22,50 +22,46 @@ hostname = manga.bilibili.com
 ********************************/
 
 const url = $request.url;
-const obj = JSON.parse(typeof $response != "undefined" && $response.body || null);
+if (!$response.body) $done({});
 let body = $response.body;
 
-if(obj && obj.data){
-  //我的页按钮展示
-  if (url.includes("/UCenterConf")){
-    const showPattern = [
-      "活动中心",
-      "个性装扮",
-      "我的已购",
-      "超漫俱乐部",
-    ];
-    if(obj.data.confs?.length > 0) {
-      let newConfs = [];
-      for (let conf of obj.data.confs) {
-        if (showPattern.includes(conf?.title)) {
-          newConfs.push(conf);
-        }
+//我的页按钮展示
+if (url.includes("/UCenterConf")){
+  const showPattern = [
+    "活动中心",
+    "个性装扮",
+    "我的已购",
+    "超漫俱乐部",
+  ];
+  if(obj.data.confs?.length > 0) {
+    let newConfs = [];
+    for (let conf of obj.data.confs) {
+      if (showPattern.includes(conf?.title)) {
+        newConfs.push(conf);
       }
-      obj.data.confs = newConfs;
     }
-    obj.data.show_welfare = false;
-    obj.data.show_all_welfare = false;
-  //我的页底部关注官方号提示去除
-  }else if(url.includes("/GetInitInfo")){
-    if(obj?.data){
-      obj.data.had_follow_offcial=true;
-    }
-  //首页去除商品推荐和视频内容
-  }else if(url.includes("/HomeFeed")){
-    if(obj?.data?.feeds?.length > 0){
-      obj.data.feeds = obj.data.feeds.filter(function(feed) {
-          //去除商品推荐
-          if(!feed.image.includes("/mall/")){
-            return feed;
-          //去除视频内容
-          }else if(feed.inline_pv_card.bvid == ""){
-            return feed;
-          }
-      });
-    }
+    obj.data.confs = newConfs;
   }
-  body = JSON.stringify(obj);
-  $done({ body });
-}else{
-  $done();
+  obj.data.show_welfare = false;
+  obj.data.show_all_welfare = false;
+//我的页底部关注官方号提示去除
+}else if(url.includes("/GetInitInfo")){
+  if(obj?.data){
+    obj.data.had_follow_offcial=true;
+  }
+//首页去除商品推荐和视频内容
+}else if(url.includes("/HomeFeed")){
+  if(obj?.data?.feeds?.length > 0){
+    obj.data.feeds = obj.data.feeds.filter(function(feed) {
+        //去除商品推荐
+        if(!feed.image.includes("/mall/")){
+          return feed;
+        //去除视频内容
+        }else if(feed.inline_pv_card.bvid == ""){
+          return feed;
+        }
+    });
+  }
 }
+body = JSON.stringify(obj);
+$done({ body });

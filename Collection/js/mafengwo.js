@@ -20,25 +20,20 @@ hostname = mapi.mafengwo.cn
 ********************************/
 
 const url = $request.url;
-const obj = JSON.parse(typeof $response != "undefined" && $response.body || null);
+if (!$response.body) $done({});
 let body = $response.body;
-
-if(obj && obj.data){
-  // 打卡提醒
-  if (url.includes("/daka/index")){
-    obj.data.has_daka = 1;
-  // 我的页推广内容
-  }else if(url.includes("/profile/get_list")){
-    if(obj?.data?.list?.length > 0){
-      obj.data.list = obj.data.list.filter(function(item) {
-          if(item.style != "inspire"){
-            return item;
-          }
-      });
-    }
+// 打卡提醒
+if (url.includes("/daka/index")){
+  obj.data.has_daka = 1;
+// 我的页推广内容
+}else if(url.includes("/profile/get_list")){
+  if(obj?.data?.list?.length > 0){
+    obj.data.list = obj.data.list.filter(function(item) {
+        if(item.style != "inspire"){
+          return item;
+        }
+    });
   }
-  body = JSON.stringify(obj);
-  $done({ body });
-}else{
-  $done();
 }
+body = JSON.stringify(obj);
+$done({ body });

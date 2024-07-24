@@ -18,24 +18,20 @@ hostname = api.ys7.com
 ********************************/
 
 const url = $request.url;
-const obj = JSON.parse(typeof $response != "undefined" && $response.body || null);
+if (!$response.body) $done({});
 let body = $response.body;
 
-if(obj){
-  if (url.includes("/config/master/station")){
-    if (body.stationInfo && body.stationInfo.groupList && body.stationInfo.groupList[1] && body.stationInfo.groupList[1].serviceList) {
-        // 删除 健康咨询
-        if(body.stationInfo.groupList[1].serviceList[9]){
-          delete body.stationInfo.groupList[1].serviceList[9];
-        }
-        // 删除 保险服务
-        if(body.stationInfo.groupList[1].serviceList[10]){
-          delete body.stationInfo.groupList[1].serviceList[10];
-        }
-    }
+if (url.includes("/config/master/station")){
+  if (body.stationInfo && body.stationInfo.groupList && body.stationInfo.groupList[1] && body.stationInfo.groupList[1].serviceList) {
+      // 删除 健康咨询
+      if(body.stationInfo.groupList[1].serviceList[9]){
+        delete body.stationInfo.groupList[1].serviceList[9];
+      }
+      // 删除 保险服务
+      if(body.stationInfo.groupList[1].serviceList[10]){
+        delete body.stationInfo.groupList[1].serviceList[10];
+      }
   }
-  body = JSON.stringify(obj);
-  $done({ body });
-}else{
-  $done();
 }
+body = JSON.stringify(obj);
+$done({ body });

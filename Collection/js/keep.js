@@ -25,6 +25,7 @@ http-response ^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport scr
 hostname = api.gotokeep.com
 ********************************/
 
+if (!$response.body) $done({});
 if (-1 != $request.url.indexOf("people/my")) {
     let e = JSON.parse($response.body);
     e.data.floatingInfo = {}, $done({body: JSON.stringify(e)})
