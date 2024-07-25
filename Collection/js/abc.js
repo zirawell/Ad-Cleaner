@@ -23,7 +23,8 @@ const headopt = header["Operation-Type"] || header["operation-type"];
 
 const blockList = [
     "com.bankabc.recommendcenter.homepage.gethpadverinfo",
-    "com.abchina.mbank.common.homepage.getStartParam"
+    "com.abchina.mbank.common.homepage.getStartParam",
+    "alipay.client.updateVersion"
 ];
 
 if (blockList?.includes(headopt)) {
