@@ -456,6 +456,8 @@ host-suffix, voiceads.cn, reject
 host-suffix, voiceads.com, reject
 host-suffix, iflyad.bj.openstorage.cn, reject
 host-keyword, ossp.voicecloud.cn, reject
+# > 携程旅行 - CTRIP
+host, sofire.baidu.com, reject
 # > 迅雷 - XUNLEI
 host, adsp.xunlei.com, reject
 host, etl.xlmc.sandai.net, reject
