@@ -2,8 +2,6 @@
 host, ads-shopping.shouqianba.com, reject
 # > 闪送<微信小程序> - SHANSONG
 host, ads.ishansong.com, reject
-# > 深圳通+<微信小程序> - SH189
-host-suffix, wxsnsdythumb.wxs.qq.com, reject
 # > 上海电信<微信小程序> - SH189
 host, bigdata-behaviordata.189.cn, reject
 # > 丰巢<微信小程序> - FCBOX
@@ -20,9 +18,9 @@ host, api.zysdsk.cn, reject
 host, smarket.dian.so, reject
 host, file.dian.so, reject
 # > 通用规则<微信小程序> - WechatAppletGeneralFilter
-host, wxsnsdy.wxs.qq.com, reject
-host, wxsmsdy.video.qq.com, reject
-host, wxsnsdythumb.wxs.qq.com, reject
+host-suffix, wxsnsdy.wxs.qq.com, reject
+host-suffix, wxsmsdy.video.qq.com, reject
+host-suffix, wxsnsdythumb.wxs.qq.com, reject
 # > PP停车<微信小程序> - PPPARK
 host, ad-files.4pyun.com, reject
 host, ad-api.4pyun.com, reject
