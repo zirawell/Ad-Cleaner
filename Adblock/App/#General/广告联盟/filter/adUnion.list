@@ -141,6 +141,7 @@ host-suffix, igexin.com, reject
 # > Unity3d - UNITY3D
 host-suffix, unityads.unity3d.com, reject
 # > 腾讯 - TENCENT
+host, dns.qq.com, reject
 host, mazu.m.qq.com, reject
 host, appsupport.qq.com, reject
 host, i.gtimg.cn, reject
