@@ -20,16 +20,16 @@ hostname = api.ys7.com
 const url = $request.url;
 if (!$response.body) $done({});
 let body = $response.body;
-
+let obj = JSON.parse(body);
 if (url.includes("/config/master/station")){
-  if (body.stationInfo && body.stationInfo.groupList && body.stationInfo.groupList[1] && body.stationInfo.groupList[1].serviceList) {
+  if (obj.stationInfo && obj.stationInfo.groupList && obj.stationInfo.groupList[1] && obj.stationInfo.groupList[1].serviceList) {
       // 删除 健康咨询
-      if(body.stationInfo.groupList[1].serviceList[9]){
-        delete body.stationInfo.groupList[1].serviceList[9];
+      if(obj.stationInfo.groupList[1].serviceList[9]){
+        delete obj.stationInfo.groupList[1].serviceList[9];
       }
       // 删除 保险服务
-      if(body.stationInfo.groupList[1].serviceList[10]){
-        delete body.stationInfo.groupList[1].serviceList[10];
+      if(obj.stationInfo.groupList[1].serviceList[10]){
+        delete obj.stationInfo.groupList[1].serviceList[10];
       }
   }
 }

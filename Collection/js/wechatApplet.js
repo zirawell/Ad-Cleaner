@@ -10,7 +10,7 @@ Please note that the above rewrite link requires open KOP-XIAO's resource parser
 const url = $request.url;
 if (!$response.body) $done({});
 let body = $response.body;
-
+let obj = JSON.parse(body);
 //EMS中国邮政物流速递
 if (url.includes("ump.ems.com.cn")){
   obj.info.moduleJson = JSON.stringify(JSON.parse(obj.info.moduleJson).filter(item => !item.moduleName.includes("广告")));
