@@ -1,2 +1,3 @@
 # > 盯盯拍 - DDPAI
-;host, pglstatp-toutiao.com, reject
+host, api.htp.ad-scope.com.cn, reject
+host, init.sms.mob.com, reject

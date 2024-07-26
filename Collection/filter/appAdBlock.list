@@ -375,7 +375,8 @@ host, ad.chelaile.net.cn, reject
 # > 彩云天气 - CAIYUNAPP
 host, ad.cyapi.cn, reject
 # > 盯盯拍 - DDPAI
-;host, pglstatp-toutiao.com, reject
+host, api.htp.ad-scope.com.cn, reject
+host, init.sms.mob.com, reject
 # > 滴滴出行 - DIDITAXI
 host, adtrack.xiaojukeji.com, reject
 ip-cidr, 123.207.209.39/32, reject
