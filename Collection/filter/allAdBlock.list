@@ -377,6 +377,7 @@ host, ad.cyapi.cn, reject
 # > 盯盯拍 - DDPAI
 ;host, pglstatp-toutiao.com, reject
 # > 滴滴出行 - DIDITAXI
+host, adtrack.xiaojukeji.com, reject
 ip-cidr, 123.207.209.39/32, reject
 ip-cidr, 123.207.209.60/32, reject
 ip-cidr, 139.199.240.12/32, reject
