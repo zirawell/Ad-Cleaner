@@ -22,6 +22,7 @@ hostname = mapi.mafengwo.cn
 const url = $request.url;
 if (!$response.body) $done({});
 let body = $response.body;
+let obj = JSON.parse(body);
 // 打卡提醒
 if (url.includes("/get_profile")){
   if(obj?.data?.daka_guide_info?.tip){

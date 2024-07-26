@@ -18,6 +18,7 @@ http-response ^https?:\/\/(www|api)\.duitang\.com\/napi\/settings\/ script-path=
 hostname = www.duitang.com, api.duitang.com
 ********************************/
 
+if (!$response.body) $done({});
 let obj = JSON.parse($response.body);
 
 const pathsToDelete = [

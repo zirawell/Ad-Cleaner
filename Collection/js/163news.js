@@ -24,7 +24,7 @@ hostname = gw.m.163.com, nex.163.com
 if (!$response.body) $done({});
 const url = $request.url;
 let body = $response.body;
-
+let obj = JSON.parse(body);
 if (url.includes("/feed/dynamic/headline-list")) {
   // 信息流
   if (obj?.data?.items?.length > 0) {

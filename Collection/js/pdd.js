@@ -17,8 +17,8 @@ http-response ^https?:\/\/api\.pinduoduo\.com\/api\/alexa\/\w+\/hub script-path=
 hostname = api.pinduoduo.com
 ********************************/
 
-let body = $response.body;
 if (!$response.body) $done({});
+let body = $response.body;
 let obj = JSON.parse(body);
 const bottomTabs = [
   "首页",
