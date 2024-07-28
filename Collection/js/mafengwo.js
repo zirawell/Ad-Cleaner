@@ -26,7 +26,7 @@ let obj = JSON.parse(body);
 // 打卡提醒
 if (url.includes("/get_profile")){
   if(obj?.data?.daka_guide_info?.tip){
-    delete obj.data.daka_guide_info.tip;
+    obj.data.daka_guide_info.tip = {};
   }
 // 我的页推广内容
 }else if(url.includes("/get_list")){
