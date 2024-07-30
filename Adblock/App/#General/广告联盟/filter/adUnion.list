@@ -82,6 +82,7 @@ host, open.e.kuaishou.com, reject
 host-suffix, kuaishouzt.com, reject
 host-suffix, adukwai.com, reject
 # > 友盟 - UMENG
+host, ar.umeng.com, reject
 host, ucc.umeng.com, reject
 host, utoken.umeng.com, reject
 host, deeplink.umeng.com, reject
@@ -94,6 +95,8 @@ host, msg.umengcloud.com, reject
 host-keyword, uop.umeng.com, reject
 host-keyword, log.umeng.com, reject
 host-keyword, logs.umeng.com, reject
+host-keyword, log.umengcloud.com, reject
+host-keyword, logs.umengcloud.com, reject
 # > 谷歌 - GOOGLE
 host-suffix, googleadsserving.cn, reject
 host-suffix, googleadservices.com, reject
@@ -156,7 +159,6 @@ host, tmeadcomm.y.qq.com, reject
 host, stat.y.qq.com, reject
 host, twns.p2ptun.qq.com, reject
 host, tp2p.kg.qq.com, reject
-host, qzs.gdtimg.com, reject
 host, qzs.qq.com, reject
 host, rmonitor.qq.com, reject
 host, huatuocode.huatuo.qq.com, reject
