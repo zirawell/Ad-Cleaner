@@ -385,6 +385,9 @@ ip-cidr, 123.207.209.39/32, reject
 ip-cidr, 123.207.209.60/32, reject
 ip-cidr, 139.199.240.12/32, reject
 ip-cidr, 139.199.240.15/32, reject
+# > 斗鱼直播 - DOUYU
+host, stun1.douyucdn.cn, reject
+host, stun1.qvb.qcloud.com, reject
 # > 大众点评 - DIANPING
 host, dpmtpush.dianping.com, reject
 host, dynamicf.sankuai.com, reject
