@@ -69,6 +69,8 @@ host-suffix, pic.zol-img.com.cn, reject
 host-suffix, ad.10010.com, reject
 # > Talkatone - TALKATONE
 host-suffix, tappx.com, reject
+# > twitter - TWITTER
+host, analytics.twitter.com, reject
 # > 同程旅行 - 17U
 host, vstlog.17usoft.com, reject
 # > 腾讯视频 - TXTV
