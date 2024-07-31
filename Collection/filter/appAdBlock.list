@@ -567,8 +567,8 @@ host, is.snssdk.com, reject
 host, bds.snssdk.com, reject
 host, sdfp.snssdk.com, reject
 host, toblog.ctobsnssdk.com, reject
-host, dm.pstatp.com, reject
 host, dm.bytedance.com, reject
+host, dm.pstatp.com, reject
 host, s3a.pstatp.com, reject
 host, tosv.boe.byted.org, reject
 host, tosv.byted.org, reject
@@ -584,6 +584,7 @@ host-keyword, -ad.byteoversea.com, reject
 host-keyword, -pack.byteimg.com, reject
 host-keyword, -analytics.bytescm.com, reject
 host-keyword, -tos.pstatp.com, reject
+host-keyword, p3.pstatp.com, reject
 host-keyword, asiad.byteactivity, reject
 host-keyword, pangolin-sdk-toutiao, reject
 host-keyword, pangolin.snssdk.com, reject
@@ -1025,6 +1026,12 @@ ip-cidr, 111.206.98.63/32, reject
 host-suffix, ads.linkedin.com, reject
 # > 蓝基因 - LANJIYIN
 host-keyword, medicine.lanjiyin.com.cn, reject
+# > 乐视视频 - LETV
+host, ark.letv.com, reject
+host, emma-414870e223.huodonghezi.com, reject
+host, g3.letv.com, reject
+host, n.mark.letv.com, reject
+host-suffix, webp2p.letv.com, reject
 # > lofter - LOFTER
 host, ad.lofter.com, reject
 # > youtube - YOUTUBE

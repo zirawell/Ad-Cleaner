@@ -54,8 +54,8 @@ host, is.snssdk.com, reject
 host, bds.snssdk.com, reject
 host, sdfp.snssdk.com, reject
 host, toblog.ctobsnssdk.com, reject
-host, dm.pstatp.com, reject
 host, dm.bytedance.com, reject
+host, dm.pstatp.com, reject
 host, s3a.pstatp.com, reject
 host, tosv.boe.byted.org, reject
 host, tosv.byted.org, reject
@@ -71,6 +71,7 @@ host-keyword, -ad.byteoversea.com, reject
 host-keyword, -pack.byteimg.com, reject
 host-keyword, -analytics.bytescm.com, reject
 host-keyword, -tos.pstatp.com, reject
+host-keyword, p3.pstatp.com, reject
 host-keyword, asiad.byteactivity, reject
 host-keyword, pangolin-sdk-toutiao, reject
 host-keyword, pangolin.snssdk.com, reject
