@@ -256,6 +256,8 @@ host, business.msstatic.com, reject
 host-suffix, v1d.szbdyd.com, reject
 # > 杭州市民 - 96225
 host, ads.iconntech.com, reject
+# > 海尔智家 - EHAIER
+host-suffix, ehaier.com, reject
 # > 买单吧 - BANKCOMM
 host-suffix, track.bankcomm.com, reject
 # > 米家 - MIHOME
