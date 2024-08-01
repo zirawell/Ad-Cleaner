@@ -1159,6 +1159,9 @@ host-suffix, tb104x.corp.youdao.com, reject
 host-suffix, impservice.dictapp.youdao.com, reject
 host-suffix, impservice-test.dictapp.youdao.com, reject
 host-suffix, impservicetest.dictapp.youdao.com, reject
+# > 网上国网 - SGCC
+host, mdap.mpaas.cn-hangzhou.aliyuncs.com, reject
+host, gdapi.a5b.cc, reject
 # > 微信 - WECHAT
 host, badjs.weixinbridge.com, reject
 # > 网易云音乐 - 163MUSIC
