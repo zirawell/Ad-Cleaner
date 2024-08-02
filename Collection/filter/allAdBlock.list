@@ -1092,7 +1092,6 @@ host, ad.ysepay.com, reject
 host, adx.yiche.com, reject
 host, log.ycapp.yiche.com, reject
 # > 优酷 - YOUKU
-host, ems.youku.com, reject
 host, amdc.m.youku.com, reject
 host, apiv4-iyes.youku.com, reject
 host, api.sm.cn, reject
@@ -1100,16 +1099,18 @@ host, huichuan-mc.sm.cn, reject
 host, huichuan.sm.cn, reject
 host, iyes.youku.com, reject
 host, cad.youku.com, reject
-host, mc.atm.youku.com, reject
 host, pre-acs.youku.com, reject
 host, m-vali.cp31.ott.cibntv.net, reject
 host, vali-g1.cp31.ott.cibntv.net, reject
 host, vali-ugc.cp31.ott.cibntv.net, reject
 host, pl.cp31.ott.cibntv.net, reject
 host, ykad-data.youku.com, reject
-host, ad.mobile.youku.com, reject
+host, sealine.youku.com, reject
 host, youku-acs.m.taobao.com, reject
+host-suffix, ems.youku.com, reject
+host-suffix, ad.mobile.youku.com, reject
 host-suffix, ad.youku.com, reject
+host-suffix, bdcode.youke.com, reject
 host-suffix, atm.youku.com, reject
 host-suffix, actives.youku.com, reject
 host-suffix, ad.api.3g.tudou.com, reject
@@ -1118,9 +1119,10 @@ host-suffix, ad.api.mobile.youku.com, reject
 host-suffix, a-dxk.play.api.3g.youku.com, reject
 host-suffix, b.smartvideo.youku.com, reject
 host-suffix, c.yes.youku.com, reject
+host-suffix, m.yes.youku.com, reject
+host-suffix, myes.youku.com, reject
 host-suffix, das.api.youku.com, reject
 host-suffix, das.mobile.youku.com, reject
-host-suffix, dev-push.m.youku.com, reject
 host-suffix, dl.g.youku.com, reject
 host-suffix, dmapp.youku.com, reject
 host-suffix, gamex.mobile.youku.com, reject
@@ -1131,15 +1133,11 @@ host-suffix, hz.youku.com, reject
 host-suffix, l.ykimg.com, reject
 host-suffix, l.youku.com, reject
 host-suffix, lstat.youku.com, reject
-host-suffix, m.yes.youku.com, reject
 host-suffix, mobilemsg.youku.com, reject
 host-suffix, msg.youku.com, reject
-host-suffix, myes.youku.com, reject
 host-suffix, passport-log.youku.com, reject
 host-suffix, p-log.ykimg.com, reject
-host-suffix, push.m.youku.com, reject
 host-suffix, s.p.youku.com, reject
-host-suffix, sdk.api.gamex.mobile.youku.com, reject
 host-suffix, sdk.m.youku.com, reject
 host-suffix, stat.youku.com, reject
 host-suffix, store.tv.api.3g.youku.com, reject
@@ -1151,6 +1149,7 @@ host-suffix, val.api.youku.com, reject
 host-suffix, wan.youku.com, reject
 host-suffix, ykatr.youku.com, reject
 host-suffix, ykrec.youku.com, reject
+host-keyword, push.m.youku.com, reject
 # > 一号店 - YHD
 host-suffix, api.dsp.yhd.com, reject
 host-suffix, tracker.yhd.com, reject
