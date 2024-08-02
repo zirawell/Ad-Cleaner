@@ -18,6 +18,7 @@ host-suffix, shuzilm.cn, reject
 host-suffix, u51.me, reject
 host-suffix, ubixioe.com, reject
 host-suffix, dutils.com, reject
+host-suffix, hiaiabc.com, reject
 host-suffix, uyunad.com, reject
 host-suffix, beizi.biz, reject
 host-suffix, fstats.xyz, reject
@@ -45,7 +46,6 @@ host-suffix, gentags.net, reject
 host-keyword, ads.g.doubleclick, reject
 host-keyword, iflyad.bj.openstorage.cn, reject
 host-keyword, bjimp.voiceads.cn, reject
-host-keyword, -adnet.hiaiabc.com, reject
 # > 字节 - BYTEDANCE
 host, ad.zijieapi.com, reject
 host, mon.zijieapi.com, reject
@@ -186,6 +186,15 @@ host-suffix, adsview2.qq.com, reject
 host-suffix, adv.app.qq.com, reject
 host-suffix, adver.qq.com, reject
 host-suffix, analy.qq.com, reject
+host-suffix, c.gj.qq.com, reject
+host-suffix, d3g.qq.com, reject
+host-suffix, download.sj.qq.com, reject
+host-suffix, dp3.qq.com, reject
+host-suffix, game.html5.qq.com, reject
+host-suffix, ggmmqq.com, reject
+host-suffix, j.wit.qq.com, reject
+host-suffix, news.ssp.qq.com, reject
+host-suffix, activeqq.3g.qq.com, reject
 host-suffix, rqd.qq.com, reject
 host-suffix, tpns.qq.com, reject
 host-suffix, tpns.tencent.com, reject
@@ -199,6 +208,15 @@ host-suffix, beacon.qq.com, reject
 host-suffix, omgmta.qq.com, reject
 host-suffix, omgmta1.qq.com, reject
 host-suffix, wup.imtt.qq.com, reject
+host-suffix, jqmt.qq.com, reject
+host-suffix, jsqmt.qq.com, reject
+host-suffix, masdk.3g.qq.com, reject
+host-suffix, mfm.video.qq.com, reject
+host-suffix, mini2015.qq.com, reject
+host-suffix, monitor.uu.qq.com, reject
+host-suffix, mqqad.cs0309.html5.qq.com, reject
+host-suffix, mqqad.html5.qq.com, reject
+host-suffix, mqqadr.reader.qq.com, reject
 host-keyword, pgdt.gtimg.c, reject
 host-keyword, trace.qq.com, reject
 host-keyword, trace.video.qq.com, reject
@@ -358,8 +376,6 @@ host, baichuan-sdk.alicdn.com, reject
 host, beacon-api.aliyuncs.com, reject
 host, adash.man.aliyuncs.com, reject
 host-suffix, mpush-api.aliyun.com, reject
-host-suffix, ut.taobao.com, reject
-host-suffix, tunion-api.m.taobao.com, reject
 host-suffix, aecpm.alicdn.com, reject
 host-suffix, afp.alicdn.com, reject
 host-suffix, afpmm.alicdn.com, reject
@@ -371,7 +387,6 @@ host-suffix, gma.alicdn.com, reject
 host-suffix, nbsdk-baichuan.alicdn.com, reject
 host-suffix, strip.alicdn.com, reject
 host-suffix, unidesk.alicdn.com, reject
-host-keyword, baichuan.m.taobao.com, reject
 host-keyword, dns.alidns.com, reject
 ip-cidr, 59.82.120.162/32, reject
 ip-cidr, 59.82.122.0/24, reject
