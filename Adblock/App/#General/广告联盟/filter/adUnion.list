@@ -389,7 +389,7 @@ host-suffix, strip.alicdn.com, reject
 host-suffix, unidesk.alicdn.com, reject
 host-keyword, dns.alidns.com, reject
 ip-cidr, 59.82.120.162/32, reject
-ip-cidr, 59.82.122.0/24, reject
+;ip-cidr, 59.82.122.0/24, reject
 ip-cidr, 59.82.121.225/32, reject
 ip-cidr, 59.82.121.31/32, reject
 ip-cidr, 59.82.121.83/32, reject
