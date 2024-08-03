@@ -1,2 +1,3 @@
 # > 微信 - WECHAT
 host, badjs.weixinbridge.com, reject
+host-suffix, wxs.qq.com, reject
