@@ -18,11 +18,13 @@ hostname = mobilepaas.abchina.com.cn
 ********************************/
 
 const url = $request.url;
+const resp = {};
 const header = $request.headers;
 const headopt = header["M-SHARK-TRACEID"] || header["m-shark-traceid"];
 
 if (headopt != null) {
-  $done({ status: "HTTP/1.1 404 Not Found" });
+  resp.headers = $request.headers;
+  $done(resp);
 } else {
   $done({});
 }
