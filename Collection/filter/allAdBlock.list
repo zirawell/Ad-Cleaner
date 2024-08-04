@@ -1156,6 +1156,8 @@ host-suffix, tracker.yhd.com, reject
 # > 云闪付 - 95516
 host, switch.cup.com.cn, reject
 host, ads.cup.com.cn, reject
+host, analytics.95516.com, reject
+host, tysdk.95516.com, reject
 # > 51cto - 51CTO
 host, smartop-sdkapi.jiguang.cn, reject
 host, smartop-sdkapi-ipv6.jiguang.cn, reject
