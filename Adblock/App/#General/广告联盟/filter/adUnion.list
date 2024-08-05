@@ -14,6 +14,7 @@ host, api.verify.mob.com, reject
 host, log-verify.mob.com, reject
 host, sdk.push.mob.com, reject
 host, api.adnet.mob.com, reject
+host, dig.bdurl.net, reject
 host-suffix, ttayy.cn, reject
 host-suffix, zhengxiaoliu.top, reject
 host-suffix, shuzilm.cn, reject
@@ -49,13 +50,27 @@ host-keyword, ads.g.doubleclick, reject
 host-keyword, iflyad.bj.openstorage.cn, reject
 host-keyword, bjimp.voiceads.cn, reject
 # > 字节 - BYTEDANCE
+host, dig.zjurl.cn, reject
 host, ad.zijieapi.com, reject
 host, mon.zijieapi.com, reject
+host, vcs.zijieapi.com, reject
+host, timon.zijieapi.com, reject
+host, mssdk.zijieapi.com, reject
+host, polaris.zijieapi.com, reject
+host, feedback-c.zijieapi.com, reject
+host, abtest3-misc.zijieapi.com, reject
+host, bsync3-normal.zijieapi.com, reject
 host, i.snssdk.com, reject
 host, is.snssdk.com, reject
+host, ug.snssdk.com, reject
 host, bds.snssdk.com, reject
+host, mcs.snssdk.com, reject
 host, sdfp.snssdk.com, reject
+host, effect.snssdk.com, reject
+host, reading.snssdk.com, reject
+host, ichannel.snssdk.com, reject
 host, toblog.ctobsnssdk.com, reject
+host, toutiao-frontier.snssdk.com, reject
 host, dm.bytedance.com, reject
 host, dm.pstatp.com, reject
 host, s3a.pstatp.com, reject
@@ -64,8 +79,10 @@ host, tosv.byted.org, reject
 host, mssdk.volces.com, reject
 host, mssdk-bu.bytedance.com, reject
 host-suffix, pangle.io, reject
-host-suffix, -normal-lq.zijieapi.com, reject
+host-suffix, ic.snssdk.com, reject
+host-suffix, log, snssdk.com, reject
 host-suffix, analytics.snssdk.com, reject
+host-keyword, -normal-lq.zijieapi.com, reject
 host-keyword, video-cn.snssdk.com, reject
 host-keyword, log.snssdk.com, reject
 host-keyword, ad-sign.byteimg.com, reject
