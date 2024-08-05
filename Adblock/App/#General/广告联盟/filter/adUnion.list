@@ -370,6 +370,7 @@ ip-cidr, 180.76.76.112/32, reject
 ip-cidr, 180.76.76.200/32, reject
 # > 阿里 - ALIBABA
 host, o2o-ad-log-gateway.alibaba.com, reject
+host, eco.taobao.com, reject
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
 host, baichuan-sdk.alicdn.com, reject
@@ -389,10 +390,12 @@ host-suffix, strip.alicdn.com, reject
 host-suffix, unidesk.alicdn.com, reject
 host-keyword, dns.alidns.com, reject
 ip-cidr, 59.82.120.162/32, reject
-;ip-cidr, 59.82.122.0/24, reject
 ip-cidr, 59.82.121.225/32, reject
 ip-cidr, 59.82.121.31/32, reject
 ip-cidr, 59.82.121.83/32, reject
+ip-cidr, 59.82.121.169/32, reject
+ip-cidr, 59.82.122.114/32, reject
+ip-cidr, 59.82.122.151/32, reject
 # > 网易 - NETEASE
 host, nex.163.com, reject
 host, iad.g.163.com, reject
