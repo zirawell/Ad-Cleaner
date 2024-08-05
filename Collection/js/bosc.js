@@ -14,7 +14,7 @@ Surge4, Loon and Shadowrocket configuration:
 http-request ^https:\/\/mgs1\.bosc\.cn:3601\/mgw script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/bosc.js
 
 [MITM]
-hostname = cupid.51job.com
+hostname = mgs1.bosc.cn
 ********************************/
 const url = $request.url;
 const header = $request.headers;

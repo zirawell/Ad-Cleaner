@@ -14,7 +14,7 @@ Surge4, Loon and Shadowrocket configuration:
 http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/jd.js
 
 [MITM]
-hostname = online.sptcc.com
+hostname = api.m.jd.com
 ********************************/
 
 const url = $request.url;

@@ -14,7 +14,7 @@ Surge4, Loon and Shadowrocket configuration:
 http-response ^https?:\/\/opss\.qiye\.ccbhome\.cn\/ccbhome-open\/home\/common script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/ccbHome.js
 
 [MITM]
-hostname = online.sptcc.com
+hostname = opss.qiye.ccbhome.cn
 ********************************/
 
 const url = $request.url;
