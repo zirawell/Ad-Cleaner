@@ -14,7 +14,7 @@ Surge4, Loon and Shadowrocket configuration:
 http-response ^https?:\/\/img\.meituan\.net\/dpmobile\/ script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/dianping.js
 
 [MITM]
-hostname = mobilepaas.abchina.com.cn
+hostname = img.meituan.net
 ********************************/
 
 const url = $request.url;
