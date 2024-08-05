@@ -567,6 +567,8 @@ host, api.verify.mob.com, reject
 host, log-verify.mob.com, reject
 host, sdk.push.mob.com, reject
 host, api.adnet.mob.com, reject
+host-suffix, ttayy.cn, reject
+host-suffix, zhengxiaoliu.top, reject
 host-suffix, shuzilm.cn, reject
 host-suffix, u51.me, reject
 host-suffix, ubixioe.com, reject
