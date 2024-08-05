@@ -46,6 +46,7 @@ ip-cidr, 122.229.29.89/32, reject
 # > 支付宝 - ALIPAY
 host, adgw.alipay.com, reject
 host-suffix, mdap.alipay.com, reject
+host-suffix, ynuf.alipay.com, reject
 host-suffix, loggw.alipay.com.cn, reject
 # > 中关村在线 - ZOL
 host-suffix, apppv.zol.com.cn, reject
@@ -84,6 +85,7 @@ host-suffix, video.wap.mpush.qq.com, reject
 host-suffix, video.ureport.push.qq.com, reject
 host-suffix, api.poll.video.qq.com, reject
 host-suffix, livep.l.ott.video.qq.com, reject
+host-suffix, news-l.play.ott.video.qq.com, reject
 host-suffix, vlive.qqvideo.tc.qq.com, reject
 # > 淘宝 - TAOBAO
 host-suffix, apoll.m.taobao.com, reject
@@ -712,6 +714,10 @@ host, qzs.qq.com, reject
 host, rmonitor.qq.com, reject
 host, huatuocode.huatuo.qq.com, reject
 host, tpstelemetry.tencent.com, reject
+host, adsmind.apdcdn.tc.qq.com, reject
+host, adsmind.tc.qq.com, reject
+host, wa.gtimg.com, reject
+host, livep.l.t002.ottcn.com, reject
 host-suffix, e.qq.com, reject
 host-suffix, l.qq.com, reject
 host-suffix, ad.qq.com, reject
@@ -765,6 +771,28 @@ host-suffix, monitor.uu.qq.com, reject
 host-suffix, mqqad.cs0309.html5.qq.com, reject
 host-suffix, mqqad.html5.qq.com, reject
 host-suffix, mqqadr.reader.qq.com, reject
+host-suffix, news.mpush.qq.com, reject
+host-suffix, novelsns.html5.qq.com, reject
+host-suffix, pcbrowser.dd.qq.com, reject
+host-suffix, pmir.3g.qq.com, reject
+host-suffix, pvstat.html5.qq.com, reject
+host-suffix, qqshow2-item.qq.com, reject
+host-suffix, scdown.qq.com, reject
+host-suffix, setting.snswin.qq.com, reject
+host-suffix, sngmta.qq.com, reject
+host-suffix, t.sj.qq.com, reject
+host-suffix, ta.qq.com, reject
+host-suffix, tcss.qq.com, reject
+host-suffix, tpush.html5.qq.com, reject
+host-suffix, updatecenter.qq.com, reject
+host-suffix, wap.mpush.qq.com, reject
+host-suffix, ws.sj.qq.com, reject
+host-suffix, wxsnsdy.tc.qq.com, reject
+host-suffix, adsmind.tc.qq.com, reject
+host-suffix, pingma.qq.com, reject
+host-suffix, pingtcss.qq.com, reject
+host-suffix, tajs.qq.com, reject
+host-suffix, fusion.qq.com, reject
 host-keyword, pgdt.gtimg.c, reject
 host-keyword, trace.qq.com, reject
 host-keyword, trace.video.qq.com, reject

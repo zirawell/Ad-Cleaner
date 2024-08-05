@@ -9,4 +9,5 @@ host-suffix, video.wap.mpush.qq.com, reject
 host-suffix, video.ureport.push.qq.com, reject
 host-suffix, api.poll.video.qq.com, reject
 host-suffix, livep.l.ott.video.qq.com, reject
+host-suffix, news-l.play.ott.video.qq.com, reject
 host-suffix, vlive.qqvideo.tc.qq.com, reject
