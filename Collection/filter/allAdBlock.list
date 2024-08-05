@@ -170,6 +170,10 @@ host-suffix, pmbservice2.bosc.cn, reject
 host, ads.pubmatic.com, reject
 host, id.hadron.ad.gt, reject
 host-keyword, -adsystem.com, reject
+# > 数字人民币 - ECNY
+ip-cidr, 1.202.85.193/32, reject
+host, mdc.wallet.pbcdci.cn, reject
+host, mdap.wallet.pbcdci.cn, reject
 # > 什么值得买 - SMZDM
 host, api.zuihuimai.com, reject
 host, analytics-api.smzdm.com, reject
