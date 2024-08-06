@@ -1,4 +1,5 @@
 // 2024-01-14 18:15
+// Checkout from: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
 
 const url = $request.url;
 if (!$response.body) $done({});
