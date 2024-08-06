@@ -706,6 +706,7 @@ host-keyword, ads.yahoo, reject
 # > 个推 - GETUI
 host-suffix, mobileservice.cn, reject
 host-suffix, getui.com, reject
+host-suffix, gepush.com, reject
 host-suffix, igexin.com, reject
 # > Unity3d - UNITY3D
 host-suffix, unityads.unity3d.com, reject
