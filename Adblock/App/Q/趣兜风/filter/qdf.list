@@ -1,2 +1,5 @@
 # > 趣兜风 - QDF
-host, st7niu.aicarmap.com, reject
+host, lwlog.laiwang.com, reject
+host-suffix, yksdks.com, reject
+host-suffix, cpatrk.net, reject
+host-suffix, mobsurl.com, reject
