@@ -115,7 +115,7 @@ host-suffix, m-adash.m.taobao.com, reject
 host-suffix, adashbc.m.taobao.com, reject
 host-suffix, ut.taobao.com, reject
 host-suffix, tunion-api.m.taobao.com, reject
-host-keyword, baichuan.m.taobao.com, reject
+host-suffix, acs4baichuan.m.taobao.com, reject
 # > trip - TRIP
 host, firebaseinstallations.googleapis.com, reject
 host, ocsp.pki.goog, reject
@@ -977,8 +977,11 @@ host-suffix, gma.alicdn.com, reject
 host-suffix, nbsdk-baichuan.alicdn.com, reject
 host-suffix, strip.alicdn.com, reject
 host-suffix, unidesk.alicdn.com, reject
+host-suffix, alibabadns.com, reject
 host-keyword, dns.alidns.com, reject
 ip-cidr, 59.82.120.162/32, reject
+ip-cidr, 59.82.120.238/32, reject
+ip-cidr, 59.82.120.128/32, reject
 ip-cidr, 59.82.121.225/32, reject
 ip-cidr, 59.82.121.31/32, reject
 ip-cidr, 59.82.121.83/32, reject
