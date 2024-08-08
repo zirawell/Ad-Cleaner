@@ -22,7 +22,11 @@ const header = $request.headers;
 const headopt = header["Operation-Type"] || header["operation-type"];
 
 const blockList = [
-    "alipay.client.updateVersion"
+    "alipay.client.updateVersion",
+    "alipay.client.switches.all.get.afterloginPb",
+    "com.dcep.rm.fingerprint.report",
+    "com.dcep.walletapp.api.securityEnvDetect"
+
 ];
 
 if (blockList?.includes(headopt)) {
